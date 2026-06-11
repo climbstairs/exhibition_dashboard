@@ -1,25 +1,29 @@
 #!/usr/bin/env python3
 """
-서울·경기 지역의 '현재 전시중'인 전시 목록을 문화포털 공연전시정보 API에서
-수집해 data/exhibitions.json 으로 저장한다.
+서울·경기 지역의 '현재 전시중'인 전시 목록을 두 공공 API에서 수집·병합해
+data/exhibitions.json 으로 저장한다.
 
-- 데이터 출처: 한국문화정보원 공연전시정보조회서비스
-  http://www.culture.go.kr/openapi/rest/publicperformancedisplays/period
-- 인증: 공공데이터포털/문화포털에서 발급받은 serviceKey (환경변수 SERVICE_KEY)
+데이터 출처:
+  1) 한국문화정보원 '한눈에보는문화정보조회서비스' (공공데이터포털 키: SERVICE_KEY)
+     https://apis.data.go.kr/B553457/cultureinfo/area2   (XML)
+  2) 서울 열린데이터광장 '서울시 문화행사 정보' (서울 키: SEOUL_API_KEY, 선택)
+     http://openapi.seoul.go.kr:8088/{KEY}/json/culturalEventInfo/...
+
+- 두 소스를 합친 뒤 제목을 정규화해 중복(같은 전시)을 제거한다.
+- SEOUL_API_KEY 가 없으면 1번 소스만 사용한다(graceful).
 - GitHub Actions에서 매일 실행되어 결과 JSON을 커밋한다.
-
-응답이 XML이라 표준 라이브러리 xml.etree 로 파싱한다(추가 의존성: requests 만).
-필드명이 기관/버전에 따라 다를 수 있어 .find 를 방어적으로 처리한다.
 """
 
 import os
 import sys
+import re
 import json
 import datetime as dt
 import urllib.parse
 import xml.etree.ElementTree as ET
 
 import requests
+
 
 # ---------------------------------------------------------------------------
 # 설정 (필요하면 여기만 고치면 된다)
@@ -49,6 +53,14 @@ ROWS = 100          # 페이지당 요청 행 수 (API가 더 적게 줄 수 있
 MAX_PAGES = 250     # 안전장치 (10건/페이지 가정 시 지역당 최대 2,500건)
 TIMEOUT = 20
 
+# --- 서울 열린데이터광장 '서울시 문화행사 정보' (선택 보강 소스) ---
+SEOUL_BASE = "http://openapi.seoul.go.kr:8088"
+SEOUL_SERVICE = "culturalEventInfo"
+SEOUL_CHUNK = 1000      # 서울 API는 한 번에 최대 1000건
+SEOUL_MAX_CHUNKS = 10   # 최대 10,000건까지
+# CODENAME(분류)에 이 단어가 들어가면 전시로 본다.
+SEOUL_GENRE_KEYWORDS = ("전시", "미술")
+
 OUT_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "data", "exhibitions.json",
@@ -69,12 +81,20 @@ def text(node, *tags):
 
 
 def norm_date(s):
-    """'20260401' 또는 '2026-04-01' → '2026-04-01'. 실패 시 원문 반환."""
+    """'20260401', '2026-04-01', '2026-04-01 00:00:00.0' → '2026-04-01'.
+    실패 시 원문 반환."""
     s = (s or "").strip()
-    digits = s.replace("-", "").replace(".", "").replace("/", "")
-    if len(digits) == 8 and digits.isdigit():
-        return f"{digits[0:4]}-{digits[4:6]}-{digits[6:8]}"
+    m = re.search(r"(\d{4})\D?(\d{2})\D?(\d{2})", s)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
     return s
+
+
+def norm_key(s):
+    """제목을 중복 판정용 키로 정규화: 소문자화 + 공백·기호 제거.
+    (Python 3 정규식의 \\w 는 한글을 포함하므로 \\W 로 기호/공백만 제거)"""
+    s = (s or "").lower()
+    return re.sub(r"[\W_]+", "", s, flags=re.UNICODE)
 
 
 def build_url(base, service_key, params):
@@ -162,6 +182,8 @@ def to_record(node):
         "gpsX": gpsx,
         "gpsY": gpsy,
         "url": url,
+        "price": "",            # 이 API는 가격 정보를 주지 않음
+        "source": "문화포털",
     }
 
 
@@ -254,26 +276,154 @@ def collect_region(service_key, label, sido_candidates, date_from, date_to, toda
             break
 
 
+def seoul_to_record(row, today):
+    """서울 culturalEventInfo 의 한 행(dict)을 공통 레코드로 변환."""
+    title = (row.get("TITLE") or "").strip()
+    codename = (row.get("CODENAME") or "").strip()
+    is_free = (row.get("IS_FREE") or "").strip()        # '무료' / '유료'
+    fee = (row.get("USE_FEE") or "").strip()
+    price = is_free or ("무료" if "무료" in fee else "")
+    return {
+        "id": "seoul:" + (title or row.get("ORG_LINK", "")),
+        "title": title,
+        "place": (row.get("PLACE") or "").strip(),
+        "area": "서울",
+        "sigungu": (row.get("GUNAME") or "").strip(),
+        "genre": codename,
+        "startDate": norm_date(row.get("STRTDATE")),
+        "endDate": norm_date(row.get("END_DATE")),
+        "thumbnail": (row.get("MAIN_IMG") or "").strip(),
+        "gpsX": (row.get("LOT") or "").strip(),   # 경도(X)
+        "gpsY": (row.get("LAT") or "").strip(),   # 위도(Y)
+        "url": (row.get("ORG_LINK") or row.get("HMPG_ADDR") or "").strip(),
+        "price": price,
+        "source": "서울",
+    }
+
+
+def seoul_keep(rec, today):
+    if not rec["title"]:
+        return False
+    # 전시 분류만 (CODENAME 에 전시/미술 포함)
+    if SEOUL_GENRE_KEYWORDS and not any(k in (rec["genre"] or "") for k in SEOUL_GENRE_KEYWORDS):
+        return False
+    # 현재 진행중
+    try:
+        if rec["startDate"]:
+            if dt.date.fromisoformat(rec["startDate"]) > today:
+                return False
+        if rec["endDate"]:
+            if dt.date.fromisoformat(rec["endDate"]) < today:
+                return False
+    except ValueError:
+        pass
+    return True
+
+
+def collect_seoul(seoul_key, today):
+    """서울 문화행사 정보를 수집해 전시·진행중 레코드 리스트를 반환."""
+    out = []
+    total = None
+    for chunk in range(SEOUL_MAX_CHUNKS):
+        start = chunk * SEOUL_CHUNK + 1
+        end = start + SEOUL_CHUNK - 1
+        url = (f"{SEOUL_BASE}/{urllib.parse.quote(seoul_key, safe='')}"
+               f"/json/{SEOUL_SERVICE}/{start}/{end}/")
+        try:
+            resp = requests.get(url, timeout=TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as exc:  # noqa: BLE001
+            print(f"  [서울] chunk {start}-{end} 오류: {exc}", file=sys.stderr)
+            break
+
+        block = data.get(SEOUL_SERVICE, {})
+        result = block.get("RESULT", {})
+        code = result.get("CODE", "")
+        if code and not code.startswith("INFO-000"):
+            print(f"  [서울] 응답: {code} {result.get('MESSAGE','')}")
+            if "INFO-200" in code:   # 데이터 없음
+                break
+        if total is None:
+            total = block.get("list_total_count")
+            print(f"  [서울] 전체 {total}건")
+        rows = block.get("row", []) or []
+        if not rows:
+            break
+        kept = 0
+        for row in rows:
+            rec = seoul_to_record(row, today)
+            if seoul_keep(rec, today):
+                out.append(rec)
+                kept += 1
+        print(f"    서울 {start}-{end}: 수신 {len(rows)}, 전시·진행중 채택 +{kept}")
+        if total is not None and end >= int(total or 0):
+            break
+        if len(rows) < SEOUL_CHUNK:
+            break
+    return out
+
+
+def merge_dedup(culture_items, seoul_items):
+    """두 소스를 합치고 제목 정규화 키로 중복 제거.
+    먼저 들어온 레코드를 유지하되, 비어있는 필드는 중복 레코드에서 채운다."""
+    by_key = {}
+    order = []
+    fill_fields = ("thumbnail", "url", "price", "sigungu", "gpsX", "gpsY", "place")
+    dup = 0
+    for rec in list(culture_items) + list(seoul_items):
+        k = norm_key(rec["title"])
+        if not k:
+            continue
+        if k not in by_key:
+            by_key[k] = dict(rec)
+            order.append(k)
+        else:
+            dup += 1
+            base = by_key[k]
+            for f in fill_fields:
+                if not base.get(f) and rec.get(f):
+                    base[f] = rec[f]
+            # 출처 표시 합치기
+            if rec.get("source") and rec["source"] not in base.get("source", ""):
+                base["source"] = f"{base.get('source','')}+{rec['source']}"
+    print(f"  병합: 문화포털 {len(culture_items)} + 서울 {len(seoul_items)} "
+          f"→ 중복 {dup}건 제거 → 최종 {len(order)}건")
+    return [by_key[k] for k in order]
+
+
 def main():
     service_key = os.environ.get("SERVICE_KEY", "").strip()
-    if not service_key:
-        print("SERVICE_KEY 환경변수가 없습니다. 샘플 데이터를 건드리지 않고 종료합니다.",
+    seoul_key = os.environ.get("SEOUL_API_KEY", "").strip()
+    if not service_key and not seoul_key:
+        print("SERVICE_KEY/SEOUL_API_KEY 둘 다 없습니다. 샘플 데이터 유지하고 종료.",
               file=sys.stderr)
         sys.exit(0)
 
     today = dt.datetime.now(KST).date()
-    # 이 API의 from~to 는 '그 기간에 종료되는' 항목을 준다.
-    # 따라서 오늘 ~ 오늘+N일 로 조회하면 '아직 안 끝난(=진행중/예정)' 항목이 오고,
-    # start<=오늘<=end 로 거르면 '현재 진행중'만 남는다.
     date_from = today.strftime("%Y%m%d")
     date_to = (today + dt.timedelta(days=WINDOW_DAYS)).strftime("%Y%m%d")
-    print(f"조회 기간(종료일 기준): {date_from} ~ {date_to} (오늘={today})")
 
-    seen = {}
-    for label, cands in REGIONS:
-        collect_region(service_key, label, cands, date_from, date_to, today, seen)
+    # 1) 문화포털 (서울·경기)
+    culture_seen = {}
+    if service_key:
+        print(f"[문화포털] 조회 기간(종료일 기준): {date_from} ~ {date_to} (오늘={today})")
+        for label, cands in REGIONS:
+            collect_region(service_key, label, cands, date_from, date_to, today, culture_seen)
+    else:
+        print("[문화포털] SERVICE_KEY 없음 — 건너뜀")
+    culture_items = list(culture_seen.values())
 
-    items = list(seen.values())
+    # 2) 서울 열린데이터 (선택)
+    seoul_items = []
+    if seoul_key:
+        print("[서울] 문화행사 정보 수집")
+        seoul_items = collect_seoul(seoul_key, today)
+    else:
+        print("[서울] SEOUL_API_KEY 없음 — 건너뜀(문화포털만 사용)")
+
+    # 3) 병합 + 중복 제거
+    items = merge_dedup(culture_items, seoul_items)
 
     def sort_key(r):
         try:
