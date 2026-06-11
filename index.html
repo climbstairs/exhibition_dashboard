@@ -287,6 +287,7 @@ function render(){
           <div class="tags">
             ${x.area?`<span class="tag">${esc(x.area)}</span>`:""}
             ${x.genre?`<span class="tag">${esc(x.genre)}</span>`:""}
+            ${/무료|free/i.test(x.price||"")?`<span class="tag free">무료</span>`:""}
           </div>
           ${ddText?`<div class="dday"><div class="num">${ddText}</div><div class="lbl">${dd===0?"마감":"폐막까지"}</div></div>`:""}
         </div>
