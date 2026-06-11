@@ -31,9 +31,9 @@ BASE = "https://apis.data.go.kr/B553457/cultureinfo/period2"
 # 서울·경기만 남긴다. area 필드에 이 문자열이 들어가면 채택.
 REGION_KEYWORDS = ("서울", "경기")
 
-# '전시'만 남기기 위한 장르 키워드. realmName 에 아래 단어가 포함되면 채택.
-# (공연/음악/연극 등은 제외) — 비워두면 전부 통과.
-GENRE_KEYWORDS = ("미술", "전시", "박물")
+# '전시'만 남기기 위한 분류 키워드. serviceName(또는 realmName)에 아래 단어가
+# 포함되면 채택한다. (공연/교육·체험 등은 제외) — 비우면 전부 통과.
+GENRE_KEYWORDS = ("전시", "미술", "박물")
 
 ROWS = 100          # 페이지당 행 수
 MAX_PAGES = 60      # 안전장치 (ROWS*MAX_PAGES 건까지 조회)
@@ -97,43 +97,51 @@ def fetch_page(service_key, page, date_from, date_to):
 
 def parse_items(xml_text):
     root = ET.fromstring(xml_text)
-    # 정상 여부 확인 (헤더가 있으면)
+    # 신버전 헤더: <resultCode>00</resultCode> 가 정상
+    code = text(root, ".//resultCode")
+    if code and code != "00":
+        msg = text(root, ".//resultMsg") or "unknown"
+        raise RuntimeError(f"API 오류({code}): {msg}")
+    # 구버전 헤더 호환
     success = root.find(".//SuccessYN")
     if success is not None and success.text and success.text.strip().upper() == "N":
         msg = text(root, ".//ErrMsg") or text(root, ".//returnAuthMsg")
         raise RuntimeError(f"API 오류 응답: {msg or 'unknown'}")
 
-    # item 노드는 perforList / item 등으로 올 수 있다.
-    items = root.findall(".//perforList")
+    items = root.findall(".//item")
     if not items:
-        items = root.findall(".//item")
+        items = root.findall(".//perforList")
     return items
 
 
 def to_record(node):
     seq = text(node, "seq", "localId", "id")
-    title = text(node, "title", "TITLE")
-    place = text(node, "place", "EVENT_SITE", "spatialCoverage")
-    area = text(node, "area", "AREA")
-    genre = text(node, "realmName", "genre", "GENRE")
-    start = norm_date(text(node, "startDate", "PERIOD_START", "from"))
-    end = norm_date(text(node, "endDate", "PERIOD_END", "to"))
-    thumb = text(node, "thumbnail", "imageObject", "IMAGE_OBJECT")
-    price = text(node, "price", "CHARGE", "charge")
-    url = text(node, "url", "URL")
-    if not url and seq:
-        url = f"https://www.culture.go.kr/wday/index.do"  # 상세 deep-link 미보장 시 포털
+    title = text(node, "title")
+    place = text(node, "place", "spatialCoverage")
+    area = text(node, "area")
+    sigungu = text(node, "sigungu", "gugun")
+    service = text(node, "serviceName")          # 전시 / 공연 / 교육·체험
+    realm = text(node, "realmName", "genre")      # 전시 / 연극 / 뮤지컬·오페라 ...
+    start = norm_date(text(node, "startDate", "from"))
+    end = norm_date(text(node, "endDate", "to"))
+    thumb = text(node, "thumbnail", "imageObject")
+    gpsx = text(node, "gpsX")
+    gpsy = text(node, "gpsY")
+    url = text(node, "url")
 
     return {
         "id": seq or title,
         "title": title,
         "place": place,
         "area": area,
-        "genre": genre,
+        "sigungu": sigungu,
+        # 분류는 serviceName 우선(전시/공연/교육), 없으면 realmName 사용
+        "genre": service or realm,
         "startDate": start,
         "endDate": end,
-        "price": price,
         "thumbnail": thumb,
+        "gpsX": gpsx,
+        "gpsY": gpsy,
         "url": url,
     }
 
