@@ -198,7 +198,6 @@
   </div>
 
   <div class="row">
-    <button class="chip" id="freeOnly" aria-pressed="false">무료만</button>
     <select class="sort" id="sort" aria-label="정렬">
       <option value="soon">폐막 임박순</option>
       <option value="new">시작 최신순</option>
@@ -221,7 +220,7 @@
 </footer>
 
 <script>
-const state = { region:"all", q:"", freeOnly:false, sort:"soon" };
+const state = { region:"all", q:"", sort:"soon" };
 let DATA = [];
 
 const $ = (s)=>document.querySelector(s);
@@ -250,7 +249,6 @@ function render(){
   const t = today();
   let items = DATA.filter(x=>{
     if(state.region!=="all" && (x.area||"").indexOf(state.region)===-1) return false;
-    if(state.freeOnly && !isFree(x.price)) return false;
     if(state.q){
       const hay=((x.title||"")+" "+(x.place||"")).toLowerCase();
       if(hay.indexOf(state.q.toLowerCase())===-1) return false;
@@ -280,21 +278,21 @@ function render(){
     const dd = ddays(x.endDate);
     const soon = dd!=null && dd<=7;
     const ddText = dd==null ? "" : dd===0 ? "오늘" : `D-${dd}`;
-    const free = isFree(x.price);
+    const href = x.url ? x.url
+      : "https://www.google.com/search?q="+encodeURIComponent((x.title||"")+" "+(x.place||""));
     const card = `
-      <a class="card ${soon?"soon":""}" href="${x.url||"#"}" target="_blank" rel="noopener"
+      <a class="card ${soon?"soon":""}" href="${href}" target="_blank" rel="noopener"
          style="animation-delay:${Math.min(i*28,300)}ms">
         <div class="top">
           <div class="tags">
-            ${x.area?`<span class="tag">${x.area}</span>`:""}
+            ${x.area?`<span class="tag">${esc(x.area)}</span>`:""}
             ${x.genre?`<span class="tag">${esc(x.genre)}</span>`:""}
-            ${free?`<span class="tag free">무료</span>`:""}
           </div>
           ${ddText?`<div class="dday"><div class="num">${ddText}</div><div class="lbl">${dd===0?"마감":"폐막까지"}</div></div>`:""}
         </div>
         <div class="title">${esc(x.title)}</div>
         <div class="divider"></div>
-        <div class="place">${esc(x.place||"장소 미정")}</div>
+        <div class="place">${esc(x.place||"장소 미정")}${x.sigungu?` · ${esc(x.sigungu)}`:""}</div>
         <div class="dates">${fmt(x.startDate)} – ${fmt(x.endDate)}</div>
       </a>`;
     return card;
@@ -311,11 +309,6 @@ $("#seg").addEventListener("click",(e)=>{
   render();
 });
 $("#q").addEventListener("input",(e)=>{ state.q=e.target.value; render(); });
-$("#freeOnly").addEventListener("click",(e)=>{
-  state.freeOnly=!state.freeOnly;
-  e.target.setAttribute("aria-pressed", state.freeOnly);
-  render();
-});
 $("#sort").addEventListener("change",(e)=>{ state.sort=e.target.value; render(); });
 
 // ---- load (network-first, no stale cache) ----
