@@ -96,6 +96,7 @@ def fetch_page(service_key, page, date_from, date_to):
 
 
 def parse_items(xml_text):
+    """(items, total_count) 반환."""
     root = ET.fromstring(xml_text)
     # 신버전 헤더: <resultCode>00</resultCode> 가 정상
     code = text(root, ".//resultCode")
@@ -111,7 +112,13 @@ def parse_items(xml_text):
     items = root.findall(".//item")
     if not items:
         items = root.findall(".//perforList")
-    return items
+
+    total_txt = text(root, ".//totalCount")
+    try:
+        total = int(total_txt) if total_txt else None
+    except ValueError:
+        total = None
+    return items, total
 
 
 def to_record(node):
@@ -187,25 +194,40 @@ def main():
         sys.exit(0)
 
     today = dt.datetime.now(KST).date()
-    date_from = today.strftime("%Y%m%d")
+    # 검증된 방식: 오늘을 포함하는 범위로 조회하고, '오늘 진행중'은 코드에서 거른다.
+    # (이 API는 from~to 기간과 겹치는 일정을 모두 반환한다.)
+    date_from = (today - dt.timedelta(days=7)).strftime("%Y%m%d")
     date_to = today.strftime("%Y%m%d")
+    print(f"조회 기간: {date_from} ~ {date_to} (오늘={today})")
 
     seen = {}
+    fetched_total = 0
+    total_count = None
     for page in range(1, MAX_PAGES + 1):
         try:
             xml_text = fetch_page(service_key, page, date_from, date_to)
-            nodes = parse_items(xml_text)
+            nodes, total = parse_items(xml_text)
         except Exception as exc:  # noqa: BLE001
             print(f"[page {page}] 오류: {exc}", file=sys.stderr)
             break
+        if total_count is None and total is not None:
+            total_count = total
         if not nodes:
             break
+
+        kept_before = len(seen)
         for n in nodes:
             rec = to_record(n)
             if keep(rec, today):
                 rec["area"] = short_area(rec["area"])
                 seen[rec["id"]] = rec
-        if len(nodes) < ROWS:
+        fetched_total += len(nodes)
+        print(f"  page {page}: 수신 {len(nodes)}건 (누적 {fetched_total}), "
+              f"서울·경기 전시 채택 +{len(seen) - kept_before} (누적 {len(seen)})"
+              f"{f' / 전체 {total_count}건' if total_count else ''}")
+
+        # 종료 조건: 받은 누적이 totalCount 이상이거나, 빈 페이지를 만나면 중단
+        if total_count is not None and fetched_total >= total_count:
             break
 
     items = list(seen.values())
