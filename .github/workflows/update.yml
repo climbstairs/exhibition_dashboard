@@ -25,6 +25,7 @@ jobs:
       - name: Fetch exhibitions
         env:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+          SEOUL_API_KEY: ${{ secrets.SEOUL_API_KEY }}
         run: python scripts/fetch_exhibitions.py
 
       - name: Commit if changed
