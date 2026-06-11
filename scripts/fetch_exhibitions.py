@@ -25,18 +25,28 @@ import requests
 # 설정 (필요하면 여기만 고치면 된다)
 # ---------------------------------------------------------------------------
 # 한국문화정보원 '한눈에보는문화정보조회서비스' (= 공연전시정보 신버전)
-# 기간별 조회 오퍼레이션. 지역/장르는 응답을 받아 코드에서 필터링한다.
-BASE = "https://apis.data.go.kr/B553457/cultureinfo/period2"
+# 지역별(area2) 조회. 이 API의 from~to 는 '그 기간에 종료되는' 항목을 반환하므로,
+# '현재 진행중'을 얻으려면 from=오늘 ~ to=오늘+N일 로 앞쪽을 조회한 뒤
+# start<=오늘<=end 로 거른다.
+BASE = "https://apis.data.go.kr/B553457/cultureinfo/area2"
 
-# 서울·경기만 남긴다. area 필드에 이 문자열이 들어가면 채택.
-REGION_KEYWORDS = ("서울", "경기")
+# 지역별 조회 대상. (라벨, sido 파라미터 후보 목록) — 앞 값부터 시도해 데이터가
+# 나오는 표기를 자동 선택한다. (API가 '서울' 인지 '서울특별시' 인지 불확실하므로)
+REGIONS = [
+    ("서울", ["서울", "서울특별시"]),
+    ("경기", ["경기", "경기도"]),
+]
+REGION_KEYWORDS = ("서울", "경기")   # 응답 area 필드 안전 필터
 
 # '전시'만 남기기 위한 분류 키워드. serviceName(또는 realmName)에 아래 단어가
 # 포함되면 채택한다. (공연/교육·체험 등은 제외) — 비우면 전부 통과.
 GENRE_KEYWORDS = ("전시", "미술", "박물")
 
-ROWS = 100          # 페이지당 행 수
-MAX_PAGES = 60      # 안전장치 (ROWS*MAX_PAGES 건까지 조회)
+# 오늘부터 며칠 뒤까지 종료되는 항목을 조회할지 (이 안에서 진행중인 전시를 잡는다)
+WINDOW_DAYS = 180
+
+ROWS = 100          # 페이지당 요청 행 수 (API가 더 적게 줄 수 있음 — totalCount로 판단)
+MAX_PAGES = 250     # 안전장치 (10건/페이지 가정 시 지역당 최대 2,500건)
 TIMEOUT = 20
 
 OUT_PATH = os.path.join(
@@ -81,7 +91,7 @@ def build_url(base, service_key, params):
     return f"{base}?serviceKey={key}&{query}"
 
 
-def fetch_page(service_key, page, date_from, date_to):
+def fetch_page(service_key, page, date_from, date_to, sido=None):
     params = {
         "from": date_from,
         "to": date_to,
@@ -89,6 +99,8 @@ def fetch_page(service_key, page, date_from, date_to):
         "cPage": page,
         "sortStdr": 1,
     }
+    if sido:
+        params["sido"] = sido
     url = build_url(BASE, service_key, params)
     resp = requests.get(url, timeout=TIMEOUT)
     resp.raise_for_status()
@@ -156,8 +168,10 @@ def to_record(node):
 def keep(rec, today):
     if not rec["title"]:
         return False
-    # 지역 필터
-    if REGION_KEYWORDS and not any(k in (rec["area"] or "") for k in REGION_KEYWORDS):
+    # 지역 필터: area2 로 이미 지역 조회를 했으므로, area 값이 채워져 있고
+    # 그게 서울·경기가 아닐 때만 제외한다(빈 값이면 신뢰하고 통과).
+    area = rec["area"] or ""
+    if area and REGION_KEYWORDS and not any(k in area for k in REGION_KEYWORDS):
         return False
     # 장르 필터
     if GENRE_KEYWORDS and rec["genre"] and not any(k in rec["genre"] for k in GENRE_KEYWORDS):
@@ -186,6 +200,60 @@ def short_area(area):
     return a
 
 
+def collect_region(service_key, label, sido_candidates, date_from, date_to, today, seen):
+    """한 지역(서울/경기)을 sido 표기 후보를 바꿔가며 조회해 seen 에 채운다."""
+    # 데이터가 나오는 sido 표기를 찾는다 (page 1 으로 탐색)
+    chosen = None
+    first_nodes = None
+    first_total = None
+    for cand in sido_candidates:
+        try:
+            xml_text = fetch_page(service_key, 1, date_from, date_to, sido=cand)
+            nodes, total = parse_items(xml_text)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  [{label}/{cand}] 오류: {exc}", file=sys.stderr)
+            continue
+        if nodes:
+            chosen, first_nodes, first_total = cand, nodes, total
+            print(f"  [{label}] sido='{cand}' 사용 (전체 {total}건)")
+            break
+        else:
+            print(f"  [{label}] sido='{cand}' → 0건, 다음 표기 시도")
+    if not chosen:
+        print(f"  [{label}] 데이터를 찾지 못함")
+        return
+
+    kept0 = len(seen)
+    fetched = 0
+    total_count = first_total
+    page = 1
+    nodes = first_nodes
+    while True:
+        kb = len(seen)
+        for n in nodes:
+            rec = to_record(n)
+            if keep(rec, today):
+                rec["area"] = short_area(rec["area"])
+                seen[rec["id"]] = rec
+        fetched += len(nodes)
+        print(f"    {label} page {page}: 수신 {len(nodes)} (누적 {fetched}), "
+              f"채택 +{len(seen)-kb} (지역누적 {len(seen)-kept0})")
+        if total_count is not None and fetched >= total_count:
+            break
+        if page >= MAX_PAGES:
+            print(f"    {label}: MAX_PAGES({MAX_PAGES}) 도달, 중단")
+            break
+        page += 1
+        try:
+            xml_text = fetch_page(service_key, page, date_from, date_to, sido=chosen)
+            nodes, total = parse_items(xml_text)
+        except Exception as exc:  # noqa: BLE001
+            print(f"    {label} page {page} 오류: {exc}", file=sys.stderr)
+            break
+        if not nodes:
+            break
+
+
 def main():
     service_key = os.environ.get("SERVICE_KEY", "").strip()
     if not service_key:
@@ -194,44 +262,19 @@ def main():
         sys.exit(0)
 
     today = dt.datetime.now(KST).date()
-    # 검증된 방식: 오늘을 포함하는 범위로 조회하고, '오늘 진행중'은 코드에서 거른다.
-    # (이 API는 from~to 기간과 겹치는 일정을 모두 반환한다.)
-    date_from = (today - dt.timedelta(days=7)).strftime("%Y%m%d")
-    date_to = today.strftime("%Y%m%d")
-    print(f"조회 기간: {date_from} ~ {date_to} (오늘={today})")
+    # 이 API의 from~to 는 '그 기간에 종료되는' 항목을 준다.
+    # 따라서 오늘 ~ 오늘+N일 로 조회하면 '아직 안 끝난(=진행중/예정)' 항목이 오고,
+    # start<=오늘<=end 로 거르면 '현재 진행중'만 남는다.
+    date_from = today.strftime("%Y%m%d")
+    date_to = (today + dt.timedelta(days=WINDOW_DAYS)).strftime("%Y%m%d")
+    print(f"조회 기간(종료일 기준): {date_from} ~ {date_to} (오늘={today})")
 
     seen = {}
-    fetched_total = 0
-    total_count = None
-    for page in range(1, MAX_PAGES + 1):
-        try:
-            xml_text = fetch_page(service_key, page, date_from, date_to)
-            nodes, total = parse_items(xml_text)
-        except Exception as exc:  # noqa: BLE001
-            print(f"[page {page}] 오류: {exc}", file=sys.stderr)
-            break
-        if total_count is None and total is not None:
-            total_count = total
-        if not nodes:
-            break
-
-        kept_before = len(seen)
-        for n in nodes:
-            rec = to_record(n)
-            if keep(rec, today):
-                rec["area"] = short_area(rec["area"])
-                seen[rec["id"]] = rec
-        fetched_total += len(nodes)
-        print(f"  page {page}: 수신 {len(nodes)}건 (누적 {fetched_total}), "
-              f"서울·경기 전시 채택 +{len(seen) - kept_before} (누적 {len(seen)})"
-              f"{f' / 전체 {total_count}건' if total_count else ''}")
-
-        # 종료 조건: 받은 누적이 totalCount 이상이거나, 빈 페이지를 만나면 중단
-        if total_count is not None and fetched_total >= total_count:
-            break
+    for label, cands in REGIONS:
+        collect_region(service_key, label, cands, date_from, date_to, today, seen)
 
     items = list(seen.values())
-    # 폐막 임박 순 정렬
+
     def sort_key(r):
         try:
             return dt.date.fromisoformat(r["endDate"])
