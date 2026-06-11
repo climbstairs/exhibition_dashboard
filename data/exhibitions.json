@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-06-11T06:00+09:00",
+  "sample": true,
+  "count": 6,
+  "items": [
+    {
+      "id": "sample-1",
+      "title": "올라퍼 엘리아슨: 빛의 시간",
+      "place": "국립현대미술관 서울",
+      "area": "서울",
+      "genre": "미술",
+      "startDate": "2026-03-15",
+      "endDate": "2026-06-14",
+      "price": "유료",
+      "thumbnail": "",
+      "url": "https://www.mmca.go.kr"
+    },
+    {
+      "id": "sample-2",
+      "title": "한국 근현대 자수: 실의 풍경",
+      "place": "서울공예박물관",
+      "area": "서울",
+      "genre": "전시",
+      "startDate": "2026-04-02",
+      "endDate": "2026-06-28",
+      "price": "무료",
+      "thumbnail": "",
+      "url": "https://craftmuseum.seoul.go.kr"
+    },
+    {
+      "id": "sample-3",
+      "title": "백남준: 다시, 미래",
+      "place": "백남준아트센터",
+      "area": "경기",
+      "genre": "미술",
+      "startDate": "2026-02-20",
+      "endDate": "2026-08-30",
+      "price": "무료",
+      "thumbnail": "",
+      "url": "https://njp.ggcf.kr"
+    },
+    {
+      "id": "sample-4",
+      "title": "고려청자, 비색의 천년",
+      "place": "국립중앙박물관",
+      "area": "서울",
+      "genre": "박물관",
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-20",
+      "price": "유료",
+      "thumbnail": "",
+      "url": "https://www.museum.go.kr"
+    },
+    {
+      "id": "sample-5",
+      "title": "젊은 모색 2026: 경계의 감각",
+      "place": "국립현대미술관 과천",
+      "area": "경기",
+      "genre": "미술",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-12",
+      "price": "유료",
+      "thumbnail": "",
+      "url": "https://www.mmca.go.kr"
+    },
+    {
+      "id": "sample-6",
+      "title": "사진, 도시를 걷다",
+      "place": "수원시립미술관",
+      "area": "경기",
+      "genre": "전시",
+      "startDate": "2026-04-10",
+      "endDate": "2026-09-15",
+      "price": "무료",
+      "thumbnail": "",
+      "url": "https://suma.suwon.go.kr"
+    }
+  ]
+}

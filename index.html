@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>지금 보는 전시 · 서울·경기</title>
+<meta name="theme-color" content="#161512" />
+<link rel="manifest" href="./manifest.webmanifest" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=Noto+Serif+KR:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+<style>
+  :root{
+    --paper:#F3F2ED;
+    --surface:#FBFAF7;
+    --ink:#161512;
+    --muted:#6E6A62;
+    --faint:#9A968D;
+    --line:#DBD8D0;
+    --line-strong:#C7C3B9;
+    --accent:#1B33CC;     /* 전시중 / 브랜드 / 활성 */
+    --alert:#CE3A24;      /* 폐막 임박 */
+    --serif:"Noto Serif KR","Newsreader",serif;
+    --sans:"Pretendard","Pretendard Variable",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.45;
+    padding:0 0 calc(env(safe-area-inset-bottom) + 40px);
+  }
+  a{color:inherit;text-decoration:none;}
+
+  /* ---------- header ---------- */
+  header{
+    position:sticky;top:0;z-index:20;
+    background:color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter:saturate(1.1) blur(10px);
+    border-bottom:1px solid var(--line);
+    padding:calc(env(safe-area-inset-top) + 16px) 18px 12px;
+  }
+  .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  .brand h1{
+    font-family:var(--serif);font-weight:700;
+    font-size:25px;letter-spacing:-0.01em;margin:0;line-height:1.1;
+  }
+  .brand .pin{
+    font-family:var(--mono);font-size:11px;letter-spacing:0.14em;
+    text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--accent);border-radius:2px;padding:2px 6px;
+  }
+  .meta{
+    font-family:var(--mono);font-size:11px;color:var(--faint);
+    margin-top:6px;letter-spacing:0.02em;
+  }
+  .meta b{color:var(--muted);font-weight:500;}
+
+  /* ---------- controls ---------- */
+  .controls{padding:14px 18px 4px;display:flex;flex-direction:column;gap:10px;}
+  .seg{display:flex;border:1px solid var(--line-strong);border-radius:3px;overflow:hidden;width:fit-content;}
+  .seg button{
+    appearance:none;border:0;background:transparent;cursor:pointer;
+    font-family:var(--mono);font-size:12px;letter-spacing:0.06em;
+    padding:8px 16px;color:var(--muted);
+    border-right:1px solid var(--line);
+  }
+  .seg button:last-child{border-right:0;}
+  .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);}
+
+  .row{display:flex;gap:10px;align-items:center;}
+  .search{flex:1;position:relative;}
+  .search input{
+    width:100%;border:1px solid var(--line-strong);border-radius:3px;
+    background:var(--surface);color:var(--ink);
+    font-family:var(--sans);font-size:15px;padding:10px 12px 10px 34px;
+  }
+  .search input::placeholder{color:var(--faint);}
+  .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--faint);}
+
+  .chip{
+    appearance:none;cursor:pointer;white-space:nowrap;
+    border:1px solid var(--line-strong);border-radius:3px;background:var(--surface);
+    font-family:var(--mono);font-size:12px;letter-spacing:0.04em;color:var(--muted);
+    padding:9px 12px;
+  }
+  .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;}
+
+  select.sort{
+    appearance:none;cursor:pointer;
+    border:1px solid var(--line-strong);border-radius:3px;background:var(--surface);
+    font-family:var(--mono);font-size:12px;color:var(--muted);
+    padding:9px 28px 9px 12px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'><path d='M1 3l4 4 4-4' fill='none' stroke='%236E6A62' stroke-width='1.4'/></svg>");
+    background-repeat:no-repeat;background-position:right 10px center;
+  }
+
+  .countline{
+    padding:6px 18px 2px;font-family:var(--mono);font-size:11.5px;
+    letter-spacing:0.04em;color:var(--muted);
+  }
+  .countline b{color:var(--ink);font-weight:500;}
+
+  .banner{
+    margin:10px 18px 0;border:1px dashed var(--line-strong);border-radius:3px;
+    padding:9px 12px;font-size:12.5px;color:var(--muted);background:var(--surface);
+  }
+  .banner b{color:var(--ink);}
+
+  /* ---------- list ---------- */
+  main{padding:8px 14px 0;}
+  .list{display:flex;flex-direction:column;gap:12px;}
+  .card{
+    display:block;position:relative;background:var(--surface);
+    border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:0 4px 4px 0;padding:15px 16px 16px;
+    transition:transform .14s ease, box-shadow .14s ease;
+    animation:rise .5s ease backwards;
+  }
+  .card.soon{border-left-color:var(--alert);}
+  .card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;}
+  .tag{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;
+    color:var(--muted);border:1px solid var(--line);border-radius:2px;padding:2px 6px;
+  }
+  .tag.free{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 40%, var(--line));}
+  .dday{text-align:right;line-height:1;flex-shrink:0;}
+  .dday .num{font-family:var(--mono);font-weight:500;font-size:18px;color:var(--accent);letter-spacing:0.02em;}
+  .card.soon .dday .num{color:var(--alert);}
+  .dday .lbl{font-family:var(--mono);font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--faint);margin-top:3px;}
+
+  .title{
+    font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.28;
+    letter-spacing:-0.01em;margin:12px 0 0;
+  }
+  .divider{height:1px;background:var(--line);margin:13px 0 11px;}
+  .place{font-size:14.5px;color:var(--ink);font-weight:500;}
+  .dates{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-top:5px;letter-spacing:0.02em;}
+
+  .empty{
+    text-align:center;color:var(--muted);padding:60px 24px;
+  }
+  .empty .big{font-family:var(--serif);font-size:19px;color:var(--ink);margin-bottom:8px;}
+
+  footer{
+    margin-top:28px;padding:0 18px;font-family:var(--mono);
+    font-size:10.5px;color:var(--faint);letter-spacing:0.03em;line-height:1.7;
+  }
+  footer a{color:var(--muted);text-decoration:underline;text-underline-offset:2px;}
+
+  @keyframes rise{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+
+  /* hover only on devices that support it (desktop) */
+  @media (hover:hover){
+    .card:hover{transform:translateY(-2px);box-shadow:0 6px 22px -14px rgba(22,21,18,.4);}
+  }
+  @media (min-width:680px){
+    .brand h1{font-size:30px;}
+    .list{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+    main{max-width:920px;margin:0 auto;}
+    .controls,.countline,.banner,.brand,.meta,footer{max-width:920px;margin-left:auto;margin-right:auto;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <h1>지금 보는 전시</h1>
+    <span class="pin">SEOUL · GYEONGGI</span>
+  </div>
+  <div class="meta" id="meta">불러오는 중…</div>
+</header>
+
+<div class="controls">
+  <div class="seg" id="seg" role="group" aria-label="지역">
+    <button data-region="all" aria-pressed="true">전체</button>
+    <button data-region="서울" aria-pressed="false">서울</button>
+    <button data-region="경기" aria-pressed="false">경기</button>
+  </div>
+
+  <div class="row">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="전시명·미술관 검색" autocomplete="off" />
+    </div>
+  </div>
+
+  <div class="row">
+    <button class="chip" id="freeOnly" aria-pressed="false">무료만</button>
+    <select class="sort" id="sort" aria-label="정렬">
+      <option value="soon">폐막 임박순</option>
+      <option value="new">시작 최신순</option>
+      <option value="title">가나다순</option>
+    </select>
+  </div>
+</div>
+
+<div id="bannerSlot"></div>
+<div class="countline" id="countline"></div>
+
+<main>
+  <div class="list" id="list"></div>
+</main>
+
+<footer>
+  데이터: 한국문화정보원 공연전시정보 / 서울 열린데이터광장 ·
+  매일 자동 갱신 · 개인용 대시보드<br>
+  표시 정보가 실제와 다를 수 있으니 관람 전 각 기관 공지를 확인하세요.
+</footer>
+
+<script>
+const state = { region:"all", q:"", freeOnly:false, sort:"soon" };
+let DATA = [];
+
+const $ = (s)=>document.querySelector(s);
+const list = $("#list");
+
+function today(){ const d=new Date(); d.setHours(0,0,0,0); return d; }
+
+function parseDate(s){
+  if(!s) return null;
+  const m = String(s).match(/(\d{4})[-.\/]?(\d{2})[-.\/]?(\d{2})/);
+  if(!m) return null;
+  return new Date(+m[1], +m[2]-1, +m[3]);
+}
+function fmt(s){
+  const d = parseDate(s); if(!d) return s||"";
+  const p=(n)=>String(n).padStart(2,"0");
+  return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())}`;
+}
+function ddays(end){
+  const d=parseDate(end); if(!d) return null;
+  return Math.round((d - today())/86400000);
+}
+function isFree(p){ return /무료|free/i.test(p||""); }
+
+function render(){
+  const t = today();
+  let items = DATA.filter(x=>{
+    if(state.region!=="all" && (x.area||"").indexOf(state.region)===-1) return false;
+    if(state.freeOnly && !isFree(x.price)) return false;
+    if(state.q){
+      const hay=((x.title||"")+" "+(x.place||"")).toLowerCase();
+      if(hay.indexOf(state.q.toLowerCase())===-1) return false;
+    }
+    return true;
+  });
+
+  items.sort((a,b)=>{
+    if(state.sort==="title") return (a.title||"").localeCompare(b.title||"","ko");
+    if(state.sort==="new"){
+      const da=parseDate(a.startDate)||0, db=parseDate(b.startDate)||0;
+      return db-da;
+    }
+    const ea=ddays(a.endDate), eb=ddays(b.endDate);
+    return (ea==null?9999:ea)-(eb==null?9999:eb);
+  });
+
+  $("#countline").innerHTML = `오늘 기준 전시중 <b>${items.length}</b>건`;
+
+  if(!items.length){
+    list.innerHTML = `<div class="empty"><div class="big">조건에 맞는 전시가 없어요</div>
+      필터를 줄이거나 검색어를 지워보세요.</div>`;
+    return;
+  }
+
+  list.innerHTML = items.map((x,i)=>{
+    const dd = ddays(x.endDate);
+    const soon = dd!=null && dd<=7;
+    const ddText = dd==null ? "" : dd===0 ? "오늘" : `D-${dd}`;
+    const free = isFree(x.price);
+    const card = `
+      <a class="card ${soon?"soon":""}" href="${x.url||"#"}" target="_blank" rel="noopener"
+         style="animation-delay:${Math.min(i*28,300)}ms">
+        <div class="top">
+          <div class="tags">
+            ${x.area?`<span class="tag">${x.area}</span>`:""}
+            ${x.genre?`<span class="tag">${esc(x.genre)}</span>`:""}
+            ${free?`<span class="tag free">무료</span>`:""}
+          </div>
+          ${ddText?`<div class="dday"><div class="num">${ddText}</div><div class="lbl">${dd===0?"마감":"폐막까지"}</div></div>`:""}
+        </div>
+        <div class="title">${esc(x.title)}</div>
+        <div class="divider"></div>
+        <div class="place">${esc(x.place||"장소 미정")}</div>
+        <div class="dates">${fmt(x.startDate)} – ${fmt(x.endDate)}</div>
+      </a>`;
+    return card;
+  }).join("");
+}
+
+function esc(s){ return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+// ---- events ----
+$("#seg").addEventListener("click",(e)=>{
+  const b=e.target.closest("button"); if(!b) return;
+  state.region=b.dataset.region;
+  [...$("#seg").children].forEach(x=>x.setAttribute("aria-pressed", x===b));
+  render();
+});
+$("#q").addEventListener("input",(e)=>{ state.q=e.target.value; render(); });
+$("#freeOnly").addEventListener("click",(e)=>{
+  state.freeOnly=!state.freeOnly;
+  e.target.setAttribute("aria-pressed", state.freeOnly);
+  render();
+});
+$("#sort").addEventListener("change",(e)=>{ state.sort=e.target.value; render(); });
+
+// ---- load (network-first, no stale cache) ----
+async function load(){
+  try{
+    const res = await fetch("./data/exhibitions.json?t="+Date.now(), {cache:"no-store"});
+    const json = await res.json();
+    DATA = json.items||[];
+    const when = (json.generatedAt||"").replace("T"," ").slice(0,16);
+    $("#meta").innerHTML = `<b>${when||"-"}</b> 기준 · 전시중 ${json.count ?? DATA.length}건`;
+    if(json.sample){
+      $("#bannerSlot").innerHTML =
+        `<div class="banner"><b>샘플 데이터</b>로 보고 있어요. API 키(Secrets)를 등록하면
+         매일 실제 전시로 자동 채워집니다. 설정은 README 참고.</div>`;
+    }
+    render();
+  }catch(err){
+    $("#meta").textContent = "데이터를 불러오지 못했습니다.";
+    list.innerHTML = `<div class="empty"><div class="big">데이터를 불러오지 못했어요</div>
+      잠시 후 새로고침 해보세요.</div>`;
+  }
+}
+load();
+
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("./sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>
