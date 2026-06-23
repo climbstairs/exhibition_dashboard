@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-06-23T07:30+09:00",
+  "generatedAt": "2026-06-24T07:08+09:00",
   "sample": false,
-  "count": 108,
+  "count": 107,
   "items": [
-    {
-      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 6월 원화 전시 [용기를 내, 비닐장갑!]",
-      "title": "[구립증산도서관] 책 따라 걷는 도서관 6월 원화 전시 [용기를 내, 비닐장갑!]",
-      "place": "구립증산도서관 1층 로비 / 3층 어린이열람실",
-      "area": "서울",
-      "sigungu": "은평구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-23",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb6141430a1b48f68c56772252e3df92&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2334&listname=normal",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 - 6월 테마전시체험전 [아이스크림 걸음]",
       "title": "[구립증산도서관] 테마로 즐기는 도서관 - 6월 테마전시체험전 [아이스크림 걸음]",
@@ -1220,6 +1204,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[소마미술관] 그림책이 살아있다!",
+      "title": "[소마미술관] 그림책이 살아있다!",
+      "place": "소마미술관 2관 기획전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/236",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "place": "소마미술관 2관 상설전시실",
@@ -1248,22 +1248,6 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://archivist.kr/exi?m=gov&i=1775198178",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[소마미술관] 그림책이 살아있다!",
-      "title": "[소마미술관] 그림책이 살아있다!",
-      "place": "소마미술관 2관 기획전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/236",
       "price": "유료",
       "source": "서울"
     },
@@ -1338,7 +1322,7 @@
       "area": "서울",
       "sigungu": "성동구",
       "genre": "전시/미술",
-      "startDate": "2026-06-12",
+      "startDate": "2026-06-13",
       "endDate": "2026-10-11",
       "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b6decf917c7b4178936795499bec6516&thumb=Y",
       "gpsX": "127.03504316401",
