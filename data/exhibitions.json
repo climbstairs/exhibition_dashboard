@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-06-25T07:08+09:00",
+  "generatedAt": "2026-06-26T07:16+09:00",
   "sample": false,
-  "count": 112,
+  "count": 113,
   "items": [
-    {
-      "id": "seoul:[송파 청년아티스트센터] 3기 릴레이 개인전 [초록 낮 The scene of a stranger-명진]",
-      "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [초록 낮 The scene of a stranger-명진]",
-      "place": "10:00 ~ 18:00, 일요일 및 공휴일 휴관",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-25",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=12f6aa8a599d4aec9acfe25358eb5ddc&thumb=Y",
-      "gpsX": "127.115954729217",
-      "gpsY": "37.5340686405498",
-      "url": "https://www.instagram.com/artistcenter_songpa/",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:지금은 나을지 몰라도: 윤이도 개인전",
       "title": "지금은 나을지 몰라도: 윤이도 개인전",
@@ -356,6 +340,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:이노우에 리에 [하얀 벽]",
+      "title": "이노우에 리에 [하얀 벽]",
+      "place": "갤러리 메일란",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e507d8d7896a496f8b1dfb3f7bc9c673&thumb=Y",
+      "gpsX": "126.962346971703",
+      "gpsY": "37.5977661011895",
+      "url": "https://archivist.kr/exi?m=gov&i=1781484209",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울식물원] 2026 서울식물원 주제정원 수국 전시 [초여름의 솜사탕]",
       "title": "[서울식물원] 2026 서울식물원 주제정원 수국 전시 [초여름의 솜사탕]",
       "place": "서울식물원 주제정원 정원사 정원, 치유의 정원",
@@ -500,22 +500,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:정보경 개인전 [사유를 앞질러]",
-      "title": "정보경 개인전 [사유를 앞질러]",
-      "place": "서울시 용산구 대사관로12길 8 , OMG",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-19",
-      "endDate": "2026-07-05",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a06bd38a307c4a6d9ea32740ae7ac894&thumb=Y",
-      "gpsX": "127.001288096524",
-      "gpsY": "37.5332386145003",
-      "url": "https://omg-kr.com/OutrunsThought",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울시립 사진미술관] 사진공유 프로젝트 《집-들이!》",
       "title": "[서울시립 사진미술관] 사진공유 프로젝트 《집-들이!》",
       "place": "서울시립 사진미술관 1층 로비",
@@ -528,6 +512,22 @@
       "gpsX": "127.048947814686",
       "gpsY": "37.6555150225578",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1552009",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:정보경 개인전 [사유를 앞질러]",
+      "title": "정보경 개인전 [사유를 앞질러]",
+      "place": "서울시 용산구 대사관로12길 8 , OMG",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-05",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a06bd38a307c4a6d9ea32740ae7ac894&thumb=Y",
+      "gpsX": "127.001288096524",
+      "gpsY": "37.5332386145003",
+      "url": "https://omg-kr.com/OutrunsThought",
       "price": "무료",
       "source": "서울"
     },
@@ -560,6 +560,22 @@
       "gpsX": "127.048947814686",
       "gpsY": "37.6555150225578",
       "url": "https://sema.seoul.go.kr/kr/whatson/series/detail?exNo=1521622",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:모양채집 : 그린 것이 닿을 때까지",
+      "title": "모양채집 : 그린 것이 닿을 때까지",
+      "place": "아트센터림 1층 아트윈도우, 2층 제 1/2 전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-26",
+      "endDate": "2026-07-10",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=59fd5f511c5f4165ab1e1e2dbfe9342d&thumb=Y",
+      "gpsX": "126.982040842138",
+      "gpsY": "37.5790919031737",
+      "url": "https://www.artcenterlim.co.kr/programs/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171825415&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -788,6 +804,22 @@
       "source": "문화포털"
     },
     {
+      "id": "seoul:유수진 개인전 [흙을 파고, 씨앗을 놓고, 물을 주며]",
+      "title": "유수진 개인전 [흙을 파고, 씨앗을 놓고, 물을 주며]",
+      "place": "아트스페이스 보안 3",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-23",
+      "endDate": "2026-07-19",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1af1663abafd4c03b02d221f566e1801&thumb=Y",
+      "gpsX": "126.973630299897",
+      "gpsY": "37.579117894432",
+      "url": "https://archivist.kr/exi?m=gov&i=1781750049",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[갤러리지우헌] 이택수 개인전 [잔잔: 기록되지 못한 것들]",
       "title": "[갤러리지우헌] 이택수 개인전 [잔잔: 기록되지 못한 것들]",
       "place": "갤러리 지우헌",
@@ -865,22 +897,6 @@
       "gpsY": "37.5766481740232",
       "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/180",
       "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[소마미술관] 이승택 : 조각의 바깥에서",
-      "title": "[소마미술관] 이승택 : 조각의 바깥에서",
-      "place": "소마미술관 1관 1~5전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-10",
-      "endDate": "2026-07-26",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=81df61a896e74ea8ae8d6b58c04fbd31&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/237",
-      "price": "유료",
       "source": "서울"
     },
     {
@@ -1268,22 +1284,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:올림픽 조각체험 프로젝트#2 [조각이 꿈+틀]",
-      "title": "올림픽 조각체험 프로젝트#2 [조각이 꿈+틀]",
-      "place": "소마미술관",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6825663978de46c192543240dfbb2185&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://archivist.kr/exi?m=gov&i=1775198178",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "place": "소마미술관 2관 상설전시실",
@@ -1296,6 +1296,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/238",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:올림픽 조각체험 프로젝트#2 [조각이 꿈+틀]",
+      "title": "올림픽 조각체험 프로젝트#2 [조각이 꿈+틀]",
+      "place": "소마미술관",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6825663978de46c192543240dfbb2185&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://archivist.kr/exi?m=gov&i=1775198178",
       "price": "유료",
       "source": "서울"
     },
@@ -1668,22 +1684,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
-      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
-      "place": "서울새활용플라자 1층 새활용하우스",
-      "area": "서울",
-      "sigungu": "성동구",
-      "genre": "전시/미술",
-      "startDate": "2026-01-02",
-      "endDate": "2026-12-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y",
-      "gpsX": "127.057851176035",
-      "gpsY": "37.5586850612677",
-      "url": "https://www.seoulup.or.kr/display/detail.do?type=Project_Past&BBS_ID=7697",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울디자인재단] DDP 건축투어",
       "title": "[서울디자인재단] DDP 건축투어",
       "place": "DDP 뮤지엄 1층 투어데스크",
@@ -1696,6 +1696,22 @@
       "gpsX": "127.00977973484339",
       "gpsY": "37.56735731522952",
       "url": "https://ddp.or.kr/index.html?menuno=797",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+      "place": "서울새활용플라자 1층 새활용하우스",
+      "area": "서울",
+      "sigungu": "성동구",
+      "genre": "전시/미술",
+      "startDate": "2026-01-02",
+      "endDate": "2026-12-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y",
+      "gpsX": "127.057851176035",
+      "gpsY": "37.5586850612677",
+      "url": "https://www.seoulup.or.kr/display/detail.do?type=Project_Past&BBS_ID=7697",
       "price": "무료",
       "source": "서울"
     },
