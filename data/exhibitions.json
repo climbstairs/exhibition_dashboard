@@ -1,40 +1,8 @@
 {
-  "generatedAt": "2026-06-27T07:02+09:00",
+  "generatedAt": "2026-06-28T06:53+09:00",
   "sample": false,
-  "count": 113,
+  "count": 111,
   "items": [
-    {
-      "id": "seoul:강채연 개인전 [Soft temple]",
-      "title": "강채연 개인전 [Soft temple]",
-      "place": "2층",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-27",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=90bb876d7d5d4e0cb61a90c5e4a5c7c7&thumb=Y",
-      "gpsX": "126.976845515427",
-      "gpsY": "37.5510827221899",
-      "url": "https://archivist.kr/exi?m=gov&i=1779099948",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:구지언 개인전 [재로부터]",
-      "title": "구지언 개인전 [재로부터]",
-      "place": "인가희갤러리",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-05-29",
-      "endDate": "2026-06-27",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b6b795687faf41f0b5f28b1d42394dac&thumb=Y",
-      "gpsX": "126.99301974133",
-      "gpsY": "37.5415864542653",
-      "url": "https://archivist.kr/exi?m=gov&i=1779157484",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "359339",
       "title": "2025 기획특별전 &lt;空과 時, 그 안의 人&gt;",
@@ -308,22 +276,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:이노우에 리에 [하얀 벽]",
-      "title": "이노우에 리에 [하얀 벽]",
-      "place": "갤러리 메일란",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e507d8d7896a496f8b1dfb3f7bc9c673&thumb=Y",
-      "gpsX": "126.962346971703",
-      "gpsY": "37.5977661011895",
-      "url": "https://archivist.kr/exi?m=gov&i=1781484209",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[구립증산도서관] 북인사이트 2026년 6월 : 탄소중립",
       "title": "[구립증산도서관] 북인사이트 2026년 6월 : 탄소중립",
       "place": "2층 종합자료실",
@@ -336,6 +288,22 @@
       "gpsX": "126.907671330325",
       "gpsY": "37.5828094398328",
       "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2337&listname=normal",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:이노우에 리에 [하얀 벽]",
+      "title": "이노우에 리에 [하얀 벽]",
+      "place": "갤러리 메일란",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e507d8d7896a496f8b1dfb3f7bc9c673&thumb=Y",
+      "gpsX": "126.962346971703",
+      "gpsY": "37.5977661011895",
+      "url": "https://archivist.kr/exi?m=gov&i=1781484209",
       "price": "무료",
       "source": "서울"
     },
