@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T07:04+09:00",
+  "generatedAt": "2026-07-09T06:58+09:00",
   "sample": false,
-  "count": 108,
+  "count": 111,
   "items": [
     {
       "id": "seoul:모양채집 : 그린 것이 닿을 때까지",
@@ -388,22 +388,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
-      "title": "[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
-      "place": "마포아트센터 갤러리맥",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5cd7951b9c0745f4a01aa7d74de2b54a&thumb=Y",
-      "gpsX": "126.945533810385",
-      "gpsY": "37.5499060881738",
-      "url": "https://www.mfac.or.kr/performance/whole_view.jsp?sc_b_category=17&sc_b_code=BOARD_1207683401&pk_seq=2668&page=1",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:기술이 사람을 만날 때: 연결은 마음을 향한다",
       "title": "기술이 사람을 만날 때: 연결은 마음을 향한다",
       "place": "동대문디자인플라자 디자인랩1층 DDP쇼룸",
@@ -416,6 +400,22 @@
       "gpsX": "127.00977973484339",
       "gpsY": "37.56735731522952",
       "url": "https://ddpshowroom.sba.kr/menu/news/view?idx=184",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
+      "title": "[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
+      "place": "마포아트센터 갤러리맥",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5cd7951b9c0745f4a01aa7d74de2b54a&thumb=Y",
+      "gpsX": "126.945533810385",
+      "gpsY": "37.5499060881738",
+      "url": "https://www.mfac.or.kr/performance/whole_view.jsp?sc_b_category=17&sc_b_code=BOARD_1207683401&pk_seq=2668&page=1",
       "price": "무료",
       "source": "서울"
     },
@@ -596,6 +596,38 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
+      "title": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
+      "place": "구립증산도서관 2층 종합자료실 앞",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98bd636e424f49fdb9c49fb240e9817e&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2353&listname=normal",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:개인전 “911” Ground Concerto no.1, op.5",
+      "title": "개인전 “911” Ground Concerto no.1, op.5",
+      "place": "YK PRESENTS",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-09",
+      "endDate": "2026-07-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bbcb32c47b224343911e109440d7749b&thumb=Y",
+      "gpsX": "127.006807513903",
+      "gpsY": "37.5668979260337",
+      "url": "https://www.instagram.com/yfactorial/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:아기상어 비밀 초대장: 비커밍 샤크",
       "title": "아기상어 비밀 초대장: 비커밍 샤크",
       "place": "뮤지엄 전시2관",
@@ -640,6 +672,22 @@
       "gpsX": "127.00100010537",
       "gpsY": "37.5718123278145",
       "url": "https://www.doosangallery.com/kr/exhibitions/detail/237",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[종로문화재단] 2026 종로 문화예술 지원사업 [디그업 종로] 선정 프로젝트 킴콜린 개인전 《THE UNSTILL LIFE TOUR》",
+      "title": "[종로문화재단] 2026 종로 문화예술 지원사업 [디그업 종로] 선정 프로젝트 킴콜린 개인전 《THE UNSTILL LIFE TOUR》",
+      "place": "키미아트 (서울시 종로구 평창30길 47)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-29",
+      "endDate": "2026-08-02",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1ae9a0ec628b4a57b49778fe1593344b&thumb=Y",
+      "gpsX": "126.974292804383",
+      "gpsY": "37.6130075709554",
+      "url": "https://www.jfac.or.kr/site/main/program/perf_all_list_view?pgIdx=2758",
       "price": "무료",
       "source": "서울"
     },
