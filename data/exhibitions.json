@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T06:58+09:00",
+  "generatedAt": "2026-07-10T07:13+09:00",
   "sample": false,
-  "count": 111,
+  "count": 114,
   "items": [
     {
       "id": "seoul:모양채집 : 그린 것이 닿을 때까지",
@@ -192,6 +192,22 @@
       "gpsX": "127.115954729217",
       "gpsY": "37.5340686405498",
       "url": "https://www.instagram.com/p/DaCanLWvbNc/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:김봉규 사진전 [코로나 19 접촉금지시대]",
+      "title": "김봉규 사진전 [코로나 19 접촉금지시대]",
+      "place": "갤러리 인덱스",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-06-30",
+      "endDate": "2026-07-13",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=95cf481fc2474d27b1799f35a239ba35&thumb=Y",
+      "gpsX": "126.984430460968",
+      "gpsY": "37.5741966894963",
+      "url": "https://www.galleryindex.co.kr/Current",
       "price": "무료",
       "source": "서울"
     },
@@ -388,22 +404,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:기술이 사람을 만날 때: 연결은 마음을 향한다",
-      "title": "기술이 사람을 만날 때: 연결은 마음을 향한다",
-      "place": "동대문디자인플라자 디자인랩1층 DDP쇼룸",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=241c44fe49624e70bcf2c64fe8c6abc1&thumb=Y",
-      "gpsX": "127.00977973484339",
-      "gpsY": "37.56735731522952",
-      "url": "https://ddpshowroom.sba.kr/menu/news/view?idx=184",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
       "title": "[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
       "place": "마포아트센터 갤러리맥",
@@ -420,6 +420,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:기술이 사람을 만날 때: 연결은 마음을 향한다",
+      "title": "기술이 사람을 만날 때: 연결은 마음을 향한다",
+      "place": "동대문디자인플라자 디자인랩1층 DDP쇼룸",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=241c44fe49624e70bcf2c64fe8c6abc1&thumb=Y",
+      "gpsX": "127.00977973484339",
+      "gpsY": "37.56735731522952",
+      "url": "https://ddpshowroom.sba.kr/menu/news/view?idx=184",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:김민호 개인전 [결: 유동하는 풍경]",
       "title": "김민호 개인전 [결: 유동하는 풍경]",
       "place": "온에어갤러리",
@@ -432,6 +448,22 @@
       "gpsX": "126.93438086461",
       "gpsY": "37.5662657676458",
       "url": "https://archivist.kr/exi?m=gov&i=1782904240",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:신예지 개인전: Tight Knit",
+      "title": "신예지 개인전: Tight Knit",
+      "place": "크리스프 웨지",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-23",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd6354c4c5a0495987ba5e72d423da94&thumb=Y",
+      "gpsX": "126.916412664084",
+      "gpsY": "37.5493590071323",
+      "url": "https://www.crispwedge.com",
       "price": "무료",
       "source": "서울"
     },
@@ -992,6 +1024,22 @@
       "gpsX": "126.968867161039",
       "gpsY": "37.5605678517575",
       "url": "https://www.seosomun.org/exhibit/view.do?pNo=174",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울아트책보고] 예술 지구: 자연이 예술을, 예술로 지구를!",
+      "title": "[서울아트책보고] 예술 지구: 자연이 예술을, 예술로 지구를!",
+      "place": "서울아트책보고 아트북열람실",
+      "area": "서울",
+      "sigungu": "구로구",
+      "genre": "전시/미술",
+      "startDate": "2026-05-26",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=34521093ba74469086e99cf1030b3868&thumb=Y",
+      "gpsX": "126.867088741096",
+      "gpsY": "37.4982125677913",
+      "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=24623&cultureTypeCdArr=EXHB&searchCultureTypeCd=&searchOperStatusCd=VALID",
       "price": "무료",
       "source": "서울"
     },
