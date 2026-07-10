@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-07-10T07:13+09:00",
+  "generatedAt": "2026-07-11T06:50+09:00",
   "sample": false,
   "count": 114,
   "items": [
-    {
-      "id": "seoul:모양채집 : 그린 것이 닿을 때까지",
-      "title": "모양채집 : 그린 것이 닿을 때까지",
-      "place": "아트센터림 1층 아트윈도우, 2층 제 1/2 전시실",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-26",
-      "endDate": "2026-07-10",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=59fd5f511c5f4165ab1e1e2dbfe9342d&thumb=Y",
-      "gpsX": "126.982040842138",
-      "gpsY": "37.5790919031737",
-      "url": "https://www.artcenterlim.co.kr/programs/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171825415&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[문화살롱 5120] LH 행복 인스톨레이션",
       "title": "[문화살롱 5120] LH 행복 인스톨레이션",
@@ -1092,22 +1076,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 그림책이 살아있다!",
-      "title": "[소마미술관] 그림책이 살아있다!",
-      "place": "소마미술관 2관 기획전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/236",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "place": "소마미술관 2관 상설전시실",
@@ -1120,6 +1088,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/238",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 그림책이 살아있다!",
+      "title": "[소마미술관] 그림책이 살아있다!",
+      "place": "소마미술관 2관 기획전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/236",
       "price": "유료",
       "source": "서울"
     },
@@ -1298,6 +1282,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[세종문화회관] 2026 상상톡톡미술관 기획전시 [빠씨를 찾아서]",
+      "title": "[세종문화회관] 2026 상상톡톡미술관 기획전시 [빠씨를 찾아서]",
+      "place": "북서울꿈의숲 상상톡톡미술관",
+      "area": "서울",
+      "sigungu": "강북구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-11",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bf0370292aa74772a8e9a413a3196fbf&thumb=Y",
+      "gpsX": "127.04139068396867",
+      "gpsY": "37.62254520644527",
+      "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37358&menuNo=1200015",
+      "price": "유료",
+      "source": "서울"
     },
     {
       "id": "seoul:[서울시립미술관 서소문본관] 2026년 한국 근대 거장전 《유영국: 산은 내 안에 있다》",
@@ -1620,22 +1620,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울디자인재단] DDP 건축투어",
-      "title": "[서울디자인재단] DDP 건축투어",
-      "place": "DDP 뮤지엄 1층 투어데스크",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-01-02",
-      "endDate": "2026-12-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=47da849abe944ec9b7dedaf1ab283714&thumb=Y",
-      "gpsX": "127.00977973484339",
-      "gpsY": "37.56735731522952",
-      "url": "https://ddp.or.kr/index.html?menuno=797",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
       "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
       "place": "서울새활용플라자 1층 새활용하우스",
@@ -1648,6 +1632,22 @@
       "gpsX": "127.057851176035",
       "gpsY": "37.5586850612677",
       "url": "https://www.seoulup.or.kr/display/detail.do?type=Project_Past&BBS_ID=7697",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울디자인재단] DDP 건축투어",
+      "title": "[서울디자인재단] DDP 건축투어",
+      "place": "DDP 뮤지엄 1층 투어데스크",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-01-02",
+      "endDate": "2026-12-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=47da849abe944ec9b7dedaf1ab283714&thumb=Y",
+      "gpsX": "127.00977973484339",
+      "gpsY": "37.56735731522952",
+      "url": "https://ddp.or.kr/index.html?menuno=797",
       "price": "무료",
       "source": "서울"
     },
