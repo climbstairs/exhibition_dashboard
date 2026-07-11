@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-07-11T06:50+09:00",
+  "generatedAt": "2026-07-12T06:39+09:00",
   "sample": false,
-  "count": 114,
+  "count": 113,
   "items": [
-    {
-      "id": "seoul:[문화살롱 5120] LH 행복 인스톨레이션",
-      "title": "[문화살롱 5120] LH 행복 인스톨레이션",
-      "place": "문화살롱 5120",
-      "area": "서울",
-      "sigungu": "노원구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-05",
-      "endDate": "2026-07-11",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c6a578c3ec7145d2b59fba784fa2bf91&thumb=Y",
-      "gpsX": "127.075703075721",
-      "gpsY": "37.628392704654",
-      "url": "https://salon5120.com/exhibition-260605/",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[운현궁] 하우스뮤지엄 [천의 리듬을 따라서_현대 조각보전_김경희 개인전]",
       "title": "[운현궁] 하우스뮤지엄 [천의 리듬을 따라서_현대 조각보전_김경희 개인전]",
@@ -1620,22 +1604,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
-      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
-      "place": "서울새활용플라자 1층 새활용하우스",
-      "area": "서울",
-      "sigungu": "성동구",
-      "genre": "전시/미술",
-      "startDate": "2026-01-02",
-      "endDate": "2026-12-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y",
-      "gpsX": "127.057851176035",
-      "gpsY": "37.5586850612677",
-      "url": "https://www.seoulup.or.kr/display/detail.do?type=Project_Past&BBS_ID=7697",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울디자인재단] DDP 건축투어",
       "title": "[서울디자인재단] DDP 건축투어",
       "place": "DDP 뮤지엄 1층 투어데스크",
@@ -1648,6 +1616,22 @@
       "gpsX": "127.00977973484339",
       "gpsY": "37.56735731522952",
       "url": "https://ddp.or.kr/index.html?menuno=797",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+      "title": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+      "place": "서울새활용플라자 1층 새활용하우스",
+      "area": "서울",
+      "sigungu": "성동구",
+      "genre": "전시/미술",
+      "startDate": "2026-01-02",
+      "endDate": "2026-12-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6d22a5166ca244068a398ed32972e504&thumb=Y",
+      "gpsX": "127.057851176035",
+      "gpsY": "37.5586850612677",
+      "url": "https://www.seoulup.or.kr/display/detail.do?type=Project_Past&BBS_ID=7697",
       "price": "무료",
       "source": "서울"
     },
