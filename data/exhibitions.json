@@ -1,40 +1,8 @@
 {
-  "generatedAt": "2026-07-13T06:38+09:00",
+  "generatedAt": "2026-07-14T06:44+09:00",
   "sample": false,
-  "count": 105,
+  "count": 109,
   "items": [
-    {
-      "id": "seoul:[송파 청년아티스트센터] 3기 릴레이 개인전 [부풀리고 터뜨리며 본 것들-민주미]",
-      "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [부풀리고 터뜨리며 본 것들-민주미]",
-      "place": "송파 청년아티스트센터 지하1층 아트스페이스",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-13",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bccdb92e8a79478b86f7c2f0fe82f6b9&thumb=Y",
-      "gpsX": "127.115954729217",
-      "gpsY": "37.5340686405498",
-      "url": "https://www.instagram.com/p/DaCanLWvbNc/",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:김봉규 사진전 [코로나 19 접촉금지시대]",
-      "title": "김봉규 사진전 [코로나 19 접촉금지시대]",
-      "place": "갤러리 인덱스",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-30",
-      "endDate": "2026-07-13",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=95cf481fc2474d27b1799f35a239ba35&thumb=Y",
-      "gpsX": "126.984430460968",
-      "gpsY": "37.5741966894963",
-      "url": "https://www.galleryindex.co.kr/Current",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[미림아트갤러리] 전스미 개인전",
       "title": "[미림아트갤러리] 전스미 개인전",
@@ -212,6 +180,22 @@
       "source": "문화포털"
     },
     {
+      "id": "seoul:[운현궁] 하우스뮤지엄 [시간을 굽다, 푸름을 담다_손인자 개인전]",
+      "title": "[운현궁] 하우스뮤지엄 [시간을 굽다, 푸름을 담다_손인자 개인전]",
+      "place": "운현궁 노락당",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-19",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4912ab7614084ef584a78452ec61a011&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=1936&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:유효진 개인전 [눈 밖에 손 안에 발톱 옆에 눈]",
       "title": "유효진 개인전 [눈 밖에 손 안에 발톱 옆에 눈]",
       "place": "챔버 (서울 성북구 동소문로 26-6)",
@@ -244,22 +228,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
-      "title": "[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
-      "place": "마포아트센터 갤러리맥",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5cd7951b9c0745f4a01aa7d74de2b54a&thumb=Y",
-      "gpsX": "126.945533810385",
-      "gpsY": "37.5499060881738",
-      "url": "https://www.mfac.or.kr/performance/whole_view.jsp?sc_b_category=17&sc_b_code=BOARD_1207683401&pk_seq=2668&page=1",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:기술이 사람을 만날 때: 연결은 마음을 향한다",
       "title": "기술이 사람을 만날 때: 연결은 마음을 향한다",
       "place": "동대문디자인플라자 디자인랩1층 DDP쇼룸",
@@ -272,6 +240,22 @@
       "gpsX": "127.00977973484339",
       "gpsY": "37.56735731522952",
       "url": "https://ddpshowroom.sba.kr/menu/news/view?idx=184",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
+      "title": "[마포문화재단] 2026 지역예술가 [전시공간 지원사업] 청년작가전 X 홍익대학교 ‘지나는 것에 이름을 붙이면’",
+      "place": "마포아트센터 갤러리맥",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5cd7951b9c0745f4a01aa7d74de2b54a&thumb=Y",
+      "gpsX": "126.945533810385",
+      "gpsY": "37.5499060881738",
+      "url": "https://www.mfac.or.kr/performance/whole_view.jsp?sc_b_category=17&sc_b_code=BOARD_1207683401&pk_seq=2668&page=1",
       "price": "무료",
       "source": "서울"
     },
@@ -352,6 +336,22 @@
       "gpsX": "126.967906461707",
       "gpsY": "37.6057079931502",
       "url": "https://doam.me/Exhibition_Information/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171490417&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 더 임팩트 청년예술인 공모전시 [뿌리로 닿아, 넝쿨로 흐르는 우리]",
+      "title": "2026 더 임팩트 청년예술인 공모전시 [뿌리로 닿아, 넝쿨로 흐르는 우리]",
+      "place": "문화실험공간 호수 2F 전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eba22255cd3b4ccaba87e121a422f538&thumb=Y",
+      "gpsX": "127.101092270844",
+      "gpsY": "37.5103180005696",
+      "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260710161805214610&locale=ko",
       "price": "무료",
       "source": "서울"
     },
@@ -452,6 +452,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:강미미 [잃어버린 것을 찾으려면 아래로 내려가야 한다]",
+      "title": "강미미 [잃어버린 것을 찾으려면 아래로 내려가야 한다]",
+      "place": "주석모음집",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=52447d4348ce4369b82585b45cfe1778&thumb=Y",
+      "gpsX": "127.009089447244",
+      "gpsY": "37.5772195722771",
+      "url": "https://archivist.kr/exi?m=gov&i=1783588908",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:노우찬·이기찬 [입으로 부는 바람 When breath turns to Wind]",
       "title": "노우찬·이기찬 [입으로 부는 바람 When breath turns to Wind]",
       "place": "스페이스 카다로그",
@@ -544,6 +560,22 @@
       "gpsX": "127.00100010537",
       "gpsY": "37.5718123278145",
       "url": "https://www.doosangallery.com/kr/exhibitions/detail/237",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[예술공간 의식주] 편지를 소각하며",
+      "title": "[예술공간 의식주] 편지를 소각하며",
+      "place": "예술공간 의식주",
+      "area": "서울",
+      "sigungu": "서대문구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-11",
+      "endDate": "2026-08-02",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f5f2f3f900b24e78bdc58a950a5a381b&thumb=Y",
+      "gpsX": "126.930947128691",
+      "gpsY": "37.5764562255178",
+      "url": "https://archivist.kr/exi?m=gov&i=1783589750",
       "price": "무료",
       "source": "서울"
     },
@@ -1076,6 +1108,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]",
+      "title": "[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]",
+      "place": "서울아트책보고 예술책방",
+      "area": "서울",
+      "sigungu": "구로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-11",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b4950995fcbb44909bea2e8d7e9e74be&thumb=Y",
+      "gpsX": "126.867088741096",
+      "gpsY": "37.4982125677913",
+      "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=25342&cultureTypeCdArr=EXHB&searchCultureTypeCd=&searchOperStatusCd=VALID",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[청계천박물관] 청계천의 별이 된 노무라 모토유키",
       "title": "[청계천박물관] 청계천의 별이 된 노무라 모토유키",
       "place": "청계천박물관 기획전시",
@@ -1138,6 +1186,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[서울역사박물관] 여민공수與民共守 [백성과 함께 지킨다]",
+      "title": "[서울역사박물관] 여민공수與民共守 [백성과 함께 지킨다]",
+      "place": "서울역사박물관 기획전시실 B / 한양도성박물관 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=504caf944a314f089d9de743e41f3aed&thumb=Y",
+      "gpsX": "126.97052372473162",
+      "gpsY": "37.570507525011855",
+      "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=&currentPage=&seq=20260615104640628&ctgCd=&showSummaryYn=N",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:[세종문화회관] 2026 상상톡톡미술관 기획전시 [빠씨를 찾아서]",
