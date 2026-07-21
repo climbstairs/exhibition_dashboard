@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T06:55+09:00",
+  "generatedAt": "2026-07-22T06:54+09:00",
   "sample": false,
-  "count": 104,
+  "count": 107,
   "items": [
     {
       "id": "seoul:김민호 개인전 [결: 유동하는 풍경]",
@@ -196,6 +196,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:미림아트갤러리 [The Shape of Water] - 임정규 초대전",
+      "title": "미림아트갤러리 [The Shape of Water] - 임정규 초대전",
+      "place": "미림아트 3층 미림아트갤러리",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-22",
+      "endDate": "2026-07-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bcdff735123744a3ac271802524134df&thumb=Y",
+      "gpsX": "126.986681102308",
+      "gpsY": "37.571852756212",
+      "url": "https://www.instagram.com/p/Da__hUNTcyD/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 7월 원화 전시 [감염 동물]",
       "title": "[구립증산도서관] 책 따라 걷는 도서관 - 7월 원화 전시 [감염 동물]",
       "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
@@ -208,6 +224,22 @@
       "gpsX": "126.907671330325",
       "gpsY": "37.5828094398328",
       "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2349&listname=normal",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:김규리(1996)화가 [SECTION 01. BUTTERFLY] 전시",
+      "title": "김규리(1996)화가 [SECTION 01. BUTTERFLY] 전시",
+      "place": "인사아트프라자갤러리 2F 4관",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-22",
+      "endDate": "2026-07-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=01549865d4ea404b81f275d0c7f27082&thumb=Y",
+      "gpsX": "126.985609522118",
+      "gpsY": "37.5738579749684",
+      "url": "https://artworkbykyu.artspoon.io/ko",
       "price": "무료",
       "source": "서울"
     },
@@ -626,6 +658,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[서울공예박물관] 공예동행@쇼윈도 #4. 몸에 베인 기억을 묻다 Burying Memories Etched in the Body",
+      "title": "[서울공예박물관] 공예동행@쇼윈도 #4. 몸에 베인 기억을 묻다 Burying Memories Etched in the Body",
+      "place": "전시3동  1층 쇼윈도 갤러리",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-22",
+      "endDate": "2026-08-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b7ef5218d297488fa390285f4b412b63&thumb=Y",
+      "gpsX": "126.983533363501",
+      "gpsY": "37.5766481740232",
+      "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/191",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:[덕수궁] 한국-프랑스 수교 140주년 기념 특별전 [반화, 상서로운 마음]",
