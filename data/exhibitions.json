@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-07-22T06:54+09:00",
+  "generatedAt": "2026-07-23T06:57+09:00",
   "sample": false,
   "count": 107,
   "items": [
-    {
-      "id": "seoul:김민호 개인전 [결: 유동하는 풍경]",
-      "title": "김민호 개인전 [결: 유동하는 풍경]",
-      "place": "온에어갤러리",
-      "area": "서울",
-      "sigungu": "서대문구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-03",
-      "endDate": "2026-07-22",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9edf9b4a8c444104b4ddde690c1b797a&thumb=Y",
-      "gpsX": "126.93438086461",
-      "gpsY": "37.5662657676458",
-      "url": "https://archivist.kr/exi?m=gov&i=1782904240",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:신예지 개인전: Tight Knit",
       "title": "신예지 개인전: Tight Knit",
@@ -308,22 +292,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:한혜림 [손가락 끝을 맞대어 두드려줍니다]",
-      "title": "한혜림 [손가락 끝을 맞대어 두드려줍니다]",
-      "place": "갤러리메일란",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d438a8d2cd344e0b9ea3c7076fa0833a&thumb=Y",
-      "gpsX": "126.962346971703",
-      "gpsY": "37.5977661011895",
-      "url": "https://archivist.kr/exi?m=gov&i=1783590251",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
       "title": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
       "place": "구립증산도서관 2층 종합자료실 앞",
@@ -336,6 +304,22 @@
       "gpsX": "126.907671330325",
       "gpsY": "37.5828094398328",
       "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2353&listname=normal",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:한혜림 [손가락 끝을 맞대어 두드려줍니다]",
+      "title": "한혜림 [손가락 끝을 맞대어 두드려줍니다]",
+      "place": "갤러리메일란",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d438a8d2cd344e0b9ea3c7076fa0833a&thumb=Y",
+      "gpsX": "126.962346971703",
+      "gpsY": "37.5977661011895",
+      "url": "https://archivist.kr/exi?m=gov&i=1783590251",
       "price": "무료",
       "source": "서울"
     },
@@ -610,6 +594,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[여름, 사랑] 길벗어린이 그림책작가 그룹전",
+      "title": "[여름, 사랑] 길벗어린이 그림책작가 그룹전",
+      "place": "아트센터림 1층 아트윈도우, 2층 갤러리 1,2관",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-23",
+      "endDate": "2026-08-23",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fc775388407f4613997a01b4c9239e55&thumb=Y",
+      "gpsX": "126.982040842138",
+      "gpsY": "37.5790919031737",
+      "url": "https://www.artcenterlim.co.kr/programs/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172529311&t=board",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:2026 삼각산금암미술관 은평 공예 공모 선정자 展 [경외의 구조]",
@@ -1188,6 +1188,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울역사박물관] XR 전시 [걷는 순간 역사가 펼쳐집니다]",
+      "title": "[서울역사박물관] XR 전시 [걷는 순간 역사가 펼쳐집니다]",
+      "place": "서울역사박물관 3F 전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fc53b2df94144d3987ca412f5d23839a&thumb=Y",
+      "gpsX": "126.97052372473162",
+      "gpsY": "37.570507525011855",
+      "url": "https://www.facebook.com/photo?fbid=1435935265234347&set=pcb.1435935325234341",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[송파 청년아티스트센터] 3기 릴레이 개인전 [교차점]",
       "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [교차점]",
       "place": "송파 청년아티스트센터 지하1층 아트 스페이스",
@@ -1488,22 +1504,6 @@
       "gpsX": "127.00977973484339",
       "gpsY": "37.56735731522952",
       "url": "https://ddp.or.kr/index.html?menuno=239&siteno=2&bbsno=721&boardno=16&bbstopno=721&act=view&subno=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[서울디자인재단] DDP 건축투어",
-      "title": "[서울디자인재단] DDP 건축투어",
-      "place": "DDP 뮤지엄 1층 투어데스크",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-01-02",
-      "endDate": "2026-12-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=47da849abe944ec9b7dedaf1ab283714&thumb=Y",
-      "gpsX": "127.00977973484339",
-      "gpsY": "37.56735731522952",
-      "url": "https://ddp.or.kr/index.html?menuno=797",
       "price": "무료",
       "source": "서울"
     },
