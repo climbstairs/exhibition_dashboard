@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-07-23T06:57+09:00",
+  "generatedAt": "2026-07-24T06:56+09:00",
   "sample": false,
-  "count": 107,
+  "count": 108,
   "items": [
-    {
-      "id": "seoul:신예지 개인전: Tight Knit",
-      "title": "신예지 개인전: Tight Knit",
-      "place": "크리스프 웨지",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-10",
-      "endDate": "2026-07-23",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd6354c4c5a0495987ba5e72d423da94&thumb=Y",
-      "gpsX": "126.916412664084",
-      "gpsY": "37.5493590071323",
-      "url": "https://www.crispwedge.com",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 - 7월 테마전시체험전 [얼음산 빙수가게]",
       "title": "[구립증산도서관] 테마로 즐기는 도서관 - 7월 테마전시체험전 [얼음산 빙수가게]",
@@ -292,22 +276,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
-      "title": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
-      "place": "구립증산도서관 2층 종합자료실 앞",
-      "area": "서울",
-      "sigungu": "은평구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98bd636e424f49fdb9c49fb240e9817e&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2353&listname=normal",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:한혜림 [손가락 끝을 맞대어 두드려줍니다]",
       "title": "한혜림 [손가락 끝을 맞대어 두드려줍니다]",
       "place": "갤러리메일란",
@@ -320,6 +288,22 @@
       "gpsX": "126.962346971703",
       "gpsY": "37.5977661011895",
       "url": "https://archivist.kr/exi?m=gov&i=1783590251",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
+      "title": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기",
+      "place": "구립증산도서관 2층 종합자료실 앞",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=98bd636e424f49fdb9c49fb240e9817e&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2353&listname=normal",
       "price": "무료",
       "source": "서울"
     },
@@ -436,6 +420,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서초X구로문화재단] 서리풀청년아트갤러리 전시 [궤도 : 축적된 시간의 교차]",
+      "title": "[서초X구로문화재단] 서리풀청년아트갤러리 전시 [궤도 : 축적된 시간의 교차]",
+      "place": "서리풀청년아트갤러리",
+      "area": "서울",
+      "sigungu": "서초구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-23",
+      "endDate": "2026-08-07",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6c3c128e9f694e65b8ffe6b58e5c3992&thumb=Y",
+      "gpsX": "127.013504028268",
+      "gpsY": "37.481137954971",
+      "url": "https://www.instagram.com/p/Da10vruTUu2/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:정재열 개인전 [Curtain Call]",
       "title": "정재열 개인전 [Curtain Call]",
       "place": "오에이오에이",
@@ -496,6 +496,22 @@
       "gpsX": "126.973699316136",
       "gpsY": "37.5641060692766",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1548449",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[용산문화재단x아모레퍼시픽재단] Nature in the City",
+      "title": "[용산문화재단x아모레퍼시픽재단] Nature in the City",
+      "place": "용산문화재단 1층 팝업홀",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-22",
+      "endDate": "2026-08-15",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cb93b2d9ec744640b47c261013cfb2a9&thumb=Y",
+      "gpsX": "127.002075483617",
+      "gpsY": "37.5390273519405",
+      "url": "https://yongsanculture.or.kr/site/main/performance/EXHIBITION/view/219",
       "price": "무료",
       "source": "서울"
     },
@@ -884,22 +900,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 그림책이 살아있다!",
-      "title": "[소마미술관] 그림책이 살아있다!",
-      "place": "소마미술관 2관 기획전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/236",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "place": "소마미술관 2관 상설전시실",
@@ -912,6 +912,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/238",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 그림책이 살아있다!",
+      "title": "[소마미술관] 그림책이 살아있다!",
+      "place": "소마미술관 2관 기획전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/236",
       "price": "유료",
       "source": "서울"
     },
@@ -1012,22 +1028,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
-      "title": "[문학의집·서울] 제5회 시의 정원",
-      "place": "문학의집·서울 산림문학관 야외 정원",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-09-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
-      "gpsX": "126.9892390979",
-      "gpsY": "37.5580841736",
-      "url": "http://www.imhs.co.kr/index.html",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "title": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "place": "마포구립서강도서관 4층 어린이자료실",
@@ -1040,6 +1040,22 @@
       "gpsX": "126.932061794829",
       "gpsY": "37.5477347268018",
       "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
+      "title": "[문학의집·서울] 제5회 시의 정원",
+      "place": "문학의집·서울 산림문학관 야외 정원",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
+      "gpsX": "126.9892390979",
+      "gpsY": "37.5580841736",
+      "url": "http://www.imhs.co.kr/index.html",
       "price": "무료",
       "source": "서울"
     },
