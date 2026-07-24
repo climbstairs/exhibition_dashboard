@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T06:56+09:00",
+  "generatedAt": "2026-07-25T06:56+09:00",
   "sample": false,
-  "count": 108,
+  "count": 107,
   "items": [
     {
       "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 - 7월 테마전시체험전 [얼음산 빙수가게]",
@@ -416,22 +416,6 @@
       "gpsX": "126.983533363501",
       "gpsY": "37.5766481740232",
       "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/185",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[서초X구로문화재단] 서리풀청년아트갤러리 전시 [궤도 : 축적된 시간의 교차]",
-      "title": "[서초X구로문화재단] 서리풀청년아트갤러리 전시 [궤도 : 축적된 시간의 교차]",
-      "place": "서리풀청년아트갤러리",
-      "area": "서울",
-      "sigungu": "서초구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-23",
-      "endDate": "2026-08-07",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6c3c128e9f694e65b8ffe6b58e5c3992&thumb=Y",
-      "gpsX": "127.013504028268",
-      "gpsY": "37.481137954971",
-      "url": "https://www.instagram.com/p/Da10vruTUu2/",
       "price": "무료",
       "source": "서울"
     },
@@ -900,22 +884,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
-      "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
-      "place": "소마미술관 2관 상설전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4ac3bd4533342b993b5ccfd5d42086c&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/238",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 그림책이 살아있다!",
       "title": "[소마미술관] 그림책이 살아있다!",
       "place": "소마미술관 2관 기획전시실",
@@ -928,6 +896,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/236",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
+      "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
+      "place": "소마미술관 2관 상설전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4ac3bd4533342b993b5ccfd5d42086c&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/238",
       "price": "유료",
       "source": "서울"
     },
