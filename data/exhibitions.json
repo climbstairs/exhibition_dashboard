@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-08-01T06:57+09:00",
+  "generatedAt": "2026-08-02T06:45+09:00",
   "sample": false,
-  "count": 99,
+  "count": 98,
   "items": [
-    {
-      "id": "seoul:[두산갤러리] 두산인문극장 기획전: 3개국어",
-      "title": "[두산갤러리] 두산인문극장 기획전: 3개국어",
-      "place": "두산아트센터 두산갤러리",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-06-24",
-      "endDate": "2026-08-01",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9559126f27874a9592cc70cbeff1c3e7&thumb=Y",
-      "gpsX": "127.00100010537",
-      "gpsY": "37.5718123278145",
-      "url": "https://www.doosangallery.com/kr/exhibitions/detail/237",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:서울일러스트레이션페어V.21",
       "title": "서울일러스트레이션페어V.21",
@@ -164,22 +148,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:정혜성·김정호 [In-Between]",
-      "title": "정혜성·김정호 [In-Between]",
-      "place": "온에어갤러리",
-      "area": "서울",
-      "sigungu": "서대문구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2a2cb017f59f4a1caadc10a72c60de95&thumb=Y",
-      "gpsX": "126.93438086461",
-      "gpsY": "37.5662657676458",
-      "url": "https://archivist.kr/exi?m=gov&i=1784864461",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:루나킴 개인전 [티파사의 폐허]",
       "title": "루나킴 개인전 [티파사의 폐허]",
       "place": "온에어갤러리",
@@ -192,6 +160,22 @@
       "gpsX": "126.93438086461",
       "gpsY": "37.5662657676458",
       "url": "https://archivist.kr/exi?m=gov&i=1784864526",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:정혜성·김정호 [In-Between]",
+      "title": "정혜성·김정호 [In-Between]",
+      "place": "온에어갤러리",
+      "area": "서울",
+      "sigungu": "서대문구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-25",
+      "endDate": "2026-08-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2a2cb017f59f4a1caadc10a72c60de95&thumb=Y",
+      "gpsX": "126.93438086461",
+      "gpsY": "37.5662657676458",
+      "url": "https://archivist.kr/exi?m=gov&i=1784864461",
       "price": "무료",
       "source": "서울"
     },
