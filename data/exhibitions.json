@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:20+09:00",
+  "generatedAt": "2026-08-11T06:30+09:00",
   "sample": false,
   "count": 96,
   "items": [
@@ -820,22 +820,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
-      "title": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
-      "place": "마포구립서강도서관 4층 어린이자료실",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-09-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fdc9077da2cc4801b891f62f5eefab98&thumb=Y",
-      "gpsX": "126.932061794829",
-      "gpsY": "37.5477347268018",
-      "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[문학의집·서울] 제5회 시의 정원",
       "title": "[문학의집·서울] 제5회 시의 정원",
       "place": "문학의집·서울 산림문학관 야외 정원",
@@ -848,6 +832,22 @@
       "gpsX": "126.9892390979",
       "gpsY": "37.5580841736",
       "url": "http://www.imhs.co.kr/index.html",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
+      "title": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
+      "place": "마포구립서강도서관 4층 어린이자료실",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fdc9077da2cc4801b891f62f5eefab98&thumb=Y",
+      "gpsX": "126.932061794829",
+      "gpsY": "37.5477347268018",
+      "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
       "price": "무료",
       "source": "서울"
     },
