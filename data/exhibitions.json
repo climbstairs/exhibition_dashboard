@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-08-15T06:15+09:00",
+  "generatedAt": "2026-08-16T06:11+09:00",
   "sample": false,
-  "count": 107,
+  "count": 106,
   "items": [
-    {
-      "id": "seoul:[용산문화재단x아모레퍼시픽재단] Nature in the City",
-      "title": "[용산문화재단x아모레퍼시픽재단] Nature in the City",
-      "place": "용산문화재단 1층 팝업홀",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-15",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cb93b2d9ec744640b47c261013cfb2a9&thumb=Y",
-      "gpsX": "127.002075483617",
-      "gpsY": "37.5390273519405",
-      "url": "https://yongsanculture.or.kr/site/main/performance/EXHIBITION/view/219",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[UNFRAMED] 틀을 벗어나, 진짜 나를 마주하는 곳",
       "title": "[UNFRAMED] 틀을 벗어나, 진짜 나를 마주하는 곳",
@@ -340,22 +324,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 8월 원화 전시 [나, 주먹밥]",
-      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 8월 원화 전시 [나, 주먹밥]",
-      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
-      "area": "서울",
-      "sigungu": "은평구",
-      "genre": "전시/미술",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-24",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=74462e152d7641cf884e615526ad9e42&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=219115&manageCd=MB&searchTarget=&searchStatus=OPEN",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[2026 신진미술인 지원 프로그램] 안상범 개인전 《블랙 박스》",
       "title": "[2026 신진미술인 지원 프로그램] 안상범 개인전 《블랙 박스》",
       "place": "LDK.DT (서울시 용산구 한남동 653-4, 지하)",
@@ -368,6 +336,22 @@
       "gpsX": "127.003508572886",
       "gpsY": "37.5331280165774",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1564406",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 8월 원화 전시 [나, 주먹밥]",
+      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 8월 원화 전시 [나, 주먹밥]",
+      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-24",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=74462e152d7641cf884e615526ad9e42&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=219115&manageCd=MB&searchTarget=&searchStatus=OPEN",
       "price": "무료",
       "source": "서울"
     },
@@ -548,22 +532,6 @@
       "source": "문화포털"
     },
     {
-      "id": "seoul:[구립증산도서관] 가족열람실 8월 북큐레이션 [같이 보자, 여름 풍경]",
-      "title": "[구립증산도서관] 가족열람실 8월 북큐레이션 [같이 보자, 여름 풍경]",
-      "place": "증산구립도서관 3층 가족열람실",
-      "area": "서울",
-      "sigungu": "은평구",
-      "genre": "전시/미술",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6dc0d4a86ec242ccae065dc4fe13f350&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://blog.naver.com/epgulib/224363045133",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[마포구립서강도서관] 2026년 도서관은 쿨하다 특별전시 [내 손 안의 갤러리]",
       "title": "[마포구립서강도서관] 2026년 도서관은 쿨하다 특별전시 [내 손 안의 갤러리]",
       "place": "마포구립서강도서관 5층 종합자료실 벽면 서가",
@@ -576,6 +544,22 @@
       "gpsX": "126.932061794829",
       "gpsY": "37.5477347268018",
       "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13127",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[구립증산도서관] 가족열람실 8월 북큐레이션 [같이 보자, 여름 풍경]",
+      "title": "[구립증산도서관] 가족열람실 8월 북큐레이션 [같이 보자, 여름 풍경]",
+      "place": "증산구립도서관 3층 가족열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6dc0d4a86ec242ccae065dc4fe13f350&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://blog.naver.com/epgulib/224363045133",
       "price": "무료",
       "source": "서울"
     },
@@ -964,22 +948,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
-      "title": "[문학의집·서울] 제5회 시의 정원",
-      "place": "문학의집·서울 산림문학관 야외 정원",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-09-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
-      "gpsX": "126.9892390979",
-      "gpsY": "37.5580841736",
-      "url": "http://www.imhs.co.kr/index.html",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "title": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "place": "마포구립서강도서관 4층 어린이자료실",
@@ -992,6 +960,22 @@
       "gpsX": "126.932061794829",
       "gpsY": "37.5477347268018",
       "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
+      "title": "[문학의집·서울] 제5회 시의 정원",
+      "place": "문학의집·서울 산림문학관 야외 정원",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
+      "gpsX": "126.9892390979",
+      "gpsY": "37.5580841736",
+      "url": "http://www.imhs.co.kr/index.html",
       "price": "무료",
       "source": "서울"
     },
