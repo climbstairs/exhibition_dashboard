@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-08-20T06:15+09:00",
+  "generatedAt": "2026-08-21T06:17+09:00",
   "sample": false,
   "count": 104,
   "items": [
-    {
-      "id": "seoul:고소미 개인전 [다양체]",
-      "title": "고소미 개인전 [다양체]",
-      "place": "스페이스 톤",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-02-24",
-      "endDate": "2026-08-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e5fb3f25560f40679263c73b8ba9ee10&thumb=Y",
-      "gpsX": "126.91580133126",
-      "gpsY": "37.5456545675167",
-      "url": "https://spacetone.org/ko-so-mi",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[서울시립미술관 서소문본관] 2026 서울 문화의 밤 연계 [수어통역 전시 해설]_8월",
       "title": "[서울시립미술관 서소문본관] 2026 서울 문화의 밤 연계 [수어통역 전시 해설]_8월",
@@ -64,22 +48,6 @@
       "gpsX": "127.001288096524",
       "gpsY": "37.5332386145003",
       "url": "https://omg-kr.com/Berlin",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[갤러리 그라프] 기획전시 - 유가월, 마리노 후나하시 《여과된 풍경》",
-      "title": "[갤러리 그라프] 기획전시 - 유가월, 마리노 후나하시 《여과된 풍경》",
-      "place": "갤러리 그라프 전시실",
-      "area": "서울",
-      "sigungu": "강남구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-18",
-      "endDate": "2026-08-22",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2525a25251284de7b64e31f7d3539e17&thumb=Y",
-      "gpsX": "127.046743383017",
-      "gpsY": "37.5234788204389",
-      "url": "https://ggrappe.com/exhibitions/?idx=172189555&bmode=view",
       "price": "무료",
       "source": "서울"
     },
@@ -452,22 +420,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-08-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
-      "gpsX": "126.976787992565",
-      "gpsY": "37.5716228232824",
-      "url": "https://news.seoul.go.kr/culture/archives/533444",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "title": "2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "place": "세종문화회관 외벽 미디어파사드",
@@ -480,6 +432,22 @@
       "gpsX": "126.9760053",
       "gpsY": "37.5726241",
       "url": "https://www.instagram.com/mediaartseoul/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
+      "gpsX": "126.976787992565",
+      "gpsY": "37.5716228232824",
+      "url": "https://news.seoul.go.kr/culture/archives/533444",
       "price": "무료",
       "source": "서울"
     },
@@ -644,22 +612,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
-      "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
-      "place": "소마미술관 2관 상설전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4ac3bd4533342b993b5ccfd5d42086c&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/238",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 그림책이 살아있다!",
       "title": "[소마미술관] 그림책이 살아있다!",
       "place": "소마미술관 2관 기획전시실",
@@ -672,6 +624,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/236",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
+      "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
+      "place": "소마미술관 2관 상설전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4ac3bd4533342b993b5ccfd5d42086c&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/238",
       "price": "유료",
       "source": "서울"
     },
@@ -932,6 +900,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:섬유기획전 [안식의 결 Texture of Rest]",
+      "title": "섬유기획전 [안식의 결 Texture of Rest]",
+      "place": "우란문화재단 우란1경, 우란2경",
+      "area": "서울",
+      "sigungu": "성동구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-24",
+      "endDate": "2026-10-02",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6cd09d6c58bb4c5ab2d963489874ec5b&thumb=Y",
+      "gpsX": "127.054416929987",
+      "gpsY": "37.5437897702564",
+      "url": "https://wooranfdn.org/program/exhibition_view.jsp?idx=206",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]",
       "title": "[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]",
       "place": "서울아트책보고 예술책방",
@@ -1040,6 +1024,22 @@
       "gpsX": "127.066865579183",
       "gpsY": "37.6406604547872",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1563285",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[더 갤러리 호수] 호수동물아트전",
+      "title": "[더 갤러리 호수] 호수동물아트전",
+      "place": "더 갤러리 호수",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-05",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6bba787e075e46ada1ecd708b8289f36&thumb=Y",
+      "gpsX": "127.107617545434",
+      "gpsY": "37.512296516856",
+      "url": "https://archivist.kr/exi?m=gov&i=1786525248",
       "price": "무료",
       "source": "서울"
     },
