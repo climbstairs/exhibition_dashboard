@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-25T06:18+09:00",
+  "generatedAt": "2026-08-26T06:17+09:00",
   "sample": false,
-  "count": 92,
+  "count": 96,
   "items": [
     {
       "id": "seoul:[구립증산도서관] 8월 테마전시체험전 - 테마로 즐기는 도서관 II [고양이 찻집]",
@@ -84,6 +84,38 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[인가희갤러리] 변수의 풍경",
+      "title": "[인가희갤러리] 변수의 풍경",
+      "place": "인가희갤러리",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-29",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eaa001930c114613ba1103ef1b91ae04&thumb=Y",
+      "gpsX": "126.99301974133",
+      "gpsY": "37.5415864542653",
+      "url": "https://archivist.kr/exi?m=gov&i=1787310416",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[김구 탄생 150주년 유네스코 기념해 문화주간] 미디어아트 전시 [나의 소원 : 평화의 이정표]",
+      "title": "[김구 탄생 150주년 유네스코 기념해 문화주간] 미디어아트 전시 [나의 소원 : 평화의 이정표]",
+      "place": "광화문광장 일대",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-26",
+      "endDate": "2026-08-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=90d2ccec095b42fd902fa118bf0805bf&thumb=Y",
+      "gpsX": "126.976168275947",
+      "gpsY": "37.5718478584908",
+      "url": "https://www.instagram.com/bohun_story",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[운현궁] 2026 하우스뮤지엄 [악기 끝에 머문 매듭_이예인 개인전]",
       "title": "[운현궁] 2026 하우스뮤지엄 [악기 끝에 머문 매듭_이예인 개인전]",
       "place": "운현궁 노락당",
@@ -128,6 +160,22 @@
       "gpsX": "126.927612357085",
       "gpsY": "37.5469505567011",
       "url": "https://www.instagram.com/p/DbkKIufkYMN/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:장두루 [두런두런 걸어라]",
+      "title": "장두루 [두런두런 걸어라]",
+      "place": "갤러리메일란",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f73636172b4f4b949a60061b75e00f65&thumb=Y",
+      "gpsX": "126.962346971703",
+      "gpsY": "37.5977661011895",
+      "url": "https://archivist.kr/exi?m=gov&i=1787288490",
       "price": "무료",
       "source": "서울"
     },
@@ -260,22 +308,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-08-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
-      "gpsX": "126.976787992565",
-      "gpsY": "37.5716228232824",
-      "url": "https://news.seoul.go.kr/culture/archives/533444",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "title": "2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "place": "세종문화회관 외벽 미디어파사드",
@@ -288,6 +320,22 @@
       "gpsX": "126.9760053",
       "gpsY": "37.5726241",
       "url": "https://www.instagram.com/mediaartseoul/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
+      "gpsX": "126.976787992565",
+      "gpsY": "37.5716228232824",
+      "url": "https://news.seoul.go.kr/culture/archives/533444",
       "price": "무료",
       "source": "서울"
     },
@@ -816,6 +864,22 @@
       "gpsX": "126.932061794829",
       "gpsY": "37.5477347268018",
       "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[갤러리 그라프] 기획전시 《After Hours: 밤이 되면 달라지는 감각》 - 서유라, 정인지, YEKKI",
+      "title": "[갤러리 그라프] 기획전시 《After Hours: 밤이 되면 달라지는 감각》 - 서유라, 정인지, YEKKI",
+      "place": "갤러리 그라프 전시실",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-26",
+      "endDate": "2026-10-02",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=27c9edc71cc84d3db6f8d5f711c1eaf5&thumb=Y",
+      "gpsX": "127.046743383017",
+      "gpsY": "37.5234788204389",
+      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173216341&t=board",
       "price": "무료",
       "source": "서울"
     },
