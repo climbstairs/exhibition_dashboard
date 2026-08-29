@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-08-28T14:01+09:00",
+  "generatedAt": "2026-08-29T11:57+09:00",
   "sample": false,
   "count": 110,
   "items": [
-    {
-      "id": "seoul:제15회 UAUS 파빌리온 기획전시",
-      "title": "제15회 UAUS 파빌리온 기획전시",
-      "place": "광화문광장 (서울특별시 종로구 세종대로 175)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-08-18",
-      "endDate": "2026-08-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=27416a15282b467baf2965de5dc5b0d5&thumb=Y",
-      "gpsX": "126.976168275947",
-      "gpsY": "37.5718478584908",
-      "url": "http://www.uaus.kr/",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[온에어갤러리] Saran Penyajian",
       "title": "[온에어갤러리] Saran Penyajian",
@@ -82,6 +66,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:박서진 개인전 [인간과 동물: 공존, 연결, 지탱]",
+      "title": "박서진 개인전 [인간과 동물: 공존, 연결, 지탱]",
+      "place": "캐럿글로벌 캠퍼스 6층 더갤러리 (용산구 이태원로 268-20)",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-29",
+      "endDate": "2026-08-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=83653cdc0f15439e83b4cded7c87d661&thumb=Y",
+      "gpsX": "127.00205645352662",
+      "gpsY": "37.53825771789573",
+      "url": "https://www.instagram.com/p/DcVhSnblKxd/?img_index=1",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:[김구 탄생 150주년 유네스코 기념해 문화주간] 미디어아트 전시 [나의 소원 : 평화의 이정표]",
@@ -292,22 +292,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
-      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-08-31",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
-      "gpsX": "126.976787992565",
-      "gpsY": "37.5716228232824",
-      "url": "https://news.seoul.go.kr/culture/archives/533444",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "title": "2026 아뜰리에 광화 두 번째 전시 [짙어지는 빛]",
       "place": "세종문화회관 외벽 미디어파사드",
@@ -320,6 +304,22 @@
       "gpsX": "126.9760053",
       "gpsY": "37.5726241",
       "url": "https://www.instagram.com/mediaartseoul/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "title": "2026 해치마당 미디어월 두 번째 전시 : 여름, 잠시 다른 세계",
+      "place": "해치마당 미디어월(광화문역 9번 출구 진입로)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1a84ab788304435eadf63695b565cb6e&thumb=Y",
+      "gpsX": "126.976787992565",
+      "gpsY": "37.5716228232824",
+      "url": "https://news.seoul.go.kr/culture/archives/533444",
       "price": "무료",
       "source": "서울"
     },
