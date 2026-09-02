@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T07:53+09:00",
+  "generatedAt": "2026-09-03T07:54+09:00",
   "sample": false,
-  "count": 103,
+  "count": 105,
   "items": [
     {
       "id": "seoul:[아마도예술공간] 최원정 개인전 《V370A: 심층 시간 너머》",
@@ -64,6 +64,22 @@
       "gpsX": "127.075703075721",
       "gpsY": "37.628392704654",
       "url": "https://salon5120.com/exhibition-260731/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:(Who, What, When, Where & Why) I am",
+      "title": "(Who, What, When, Where & Why) I am",
+      "place": "갤러리 지하",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=39464ccb7c8841fa8c1c8e5a76b1ad5c&thumb=Y",
+      "gpsX": "126.93267709449",
+      "gpsY": "37.5534782220949",
+      "url": "https://galleryjiha.com/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173485271&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -132,22 +148,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
-      "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
-      "place": "문화실험공간 호수 2층 전시장",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-08-25",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7595a2b321b64001a6343df9bed1901f&thumb=Y",
-      "gpsX": "127.101092270844",
-      "gpsY": "37.5103180005696",
-      "url": "https://blog.naver.com/exp_space_hosu/224385647816",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:김마저 개인전 [앉섬]",
       "title": "김마저 개인전 [앉섬]",
       "place": "아케이드 서울",
@@ -160,6 +160,22 @@
       "gpsX": "126.894539872062",
       "gpsY": "37.5155167575219",
       "url": "https://archivist.kr/exi?m=gov&i=1787900868",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
+      "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
+      "place": "문화실험공간 호수 2층 전시장",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-25",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7595a2b321b64001a6343df9bed1901f&thumb=Y",
+      "gpsX": "127.101092270844",
+      "gpsY": "37.5103180005696",
+      "url": "https://blog.naver.com/exp_space_hosu/224385647816",
       "price": "무료",
       "source": "서울"
     },
@@ -644,6 +660,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 9월 원화 전시 [삘릴리 범범]",
+      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 9월 원화 전시 [삘릴리 범범]",
+      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=72ed276c06ed4ab9a9eff02366335c91&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=225685&manageCd=MB&searchTarget=&searchStatus=OPEN",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[B the B] 신규 기획전 오픈 : Beauty Tranlated",
       "title": "[B the B] 신규 기획전 오픈 : Beauty Tranlated",
       "place": "비더비 UP-TOWN (울시 중구 을지로 281, DDP마켓 지하2층)",
@@ -756,22 +788,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
-      "title": "[문학의집·서울] 제5회 시의 정원",
-      "place": "문학의집·서울 산림문학관 야외 정원",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-07-01",
-      "endDate": "2026-09-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
-      "gpsX": "126.9892390979",
-      "gpsY": "37.5580841736",
-      "url": "http://www.imhs.co.kr/index.html",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "title": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
       "place": "마포구립서강도서관 4층 어린이자료실",
@@ -784,6 +800,22 @@
       "gpsX": "126.932061794829",
       "gpsY": "37.5477347268018",
       "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12767",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[문학의집·서울] 제5회 시의 정원",
+      "title": "[문학의집·서울] 제5회 시의 정원",
+      "place": "문학의집·서울 산림문학관 야외 정원",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5bdf4cf0b36d4cfcb91822678092bfa0&thumb=Y",
+      "gpsX": "126.9892390979",
+      "gpsY": "37.5580841736",
+      "url": "http://www.imhs.co.kr/index.html",
       "price": "무료",
       "source": "서울"
     },
