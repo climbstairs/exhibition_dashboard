@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T07:53+09:00",
+  "generatedAt": "2026-09-05T07:37+09:00",
   "sample": false,
-  "count": 107,
+  "count": 109,
   "items": [
     {
       "id": "seoul:[송파 청년아티스트센터] 3기 릴레이 개인전 [성좌적 영창술] - 이유빈",
@@ -164,22 +164,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:김마저 개인전 [앉섬]",
-      "title": "김마저 개인전 [앉섬]",
-      "place": "아케이드 서울",
-      "area": "서울",
-      "sigungu": "영등포구",
-      "genre": "전시/미술",
-      "startDate": "2026-08-25",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=338ad58a9cd745999070216116a7d22f&thumb=Y",
-      "gpsX": "126.894539872062",
-      "gpsY": "37.5155167575219",
-      "url": "https://archivist.kr/exi?m=gov&i=1787900868",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
       "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Landing in Limbo]",
       "place": "문화실험공간 호수 2층 전시장",
@@ -192,6 +176,22 @@
       "gpsX": "127.101092270844",
       "gpsY": "37.5103180005696",
       "url": "https://blog.naver.com/exp_space_hosu/224385647816",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:김마저 개인전 [앉섬]",
+      "title": "김마저 개인전 [앉섬]",
+      "place": "아케이드 서울",
+      "area": "서울",
+      "sigungu": "영등포구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-25",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=338ad58a9cd745999070216116a7d22f&thumb=Y",
+      "gpsX": "126.894539872062",
+      "gpsY": "37.5155167575219",
+      "url": "https://archivist.kr/exi?m=gov&i=1787900868",
       "price": "무료",
       "source": "서울"
     },
@@ -308,22 +308,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 그림책이 살아있다!",
-      "title": "[소마미술관] 그림책이 살아있다!",
-      "place": "소마미술관 2관 기획전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-04-17",
-      "endDate": "2026-09-06",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/236",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "title": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
       "place": "소마미술관 2관 상설전시실",
@@ -336,6 +320,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/238",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 그림책이 살아있다!",
+      "title": "[소마미술관] 그림책이 살아있다!",
+      "place": "소마미술관 2관 기획전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-04-17",
+      "endDate": "2026-09-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf267080189e4a3eadeeb6c5e8b0ade7&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/236",
       "price": "유료",
       "source": "서울"
     },
@@ -436,6 +436,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:안세은 개인전 [세 가지 물을 따라]",
+      "title": "안세은 개인전 [세 가지 물을 따라]",
+      "place": "예술공간 의식주",
+      "area": "서울",
+      "sigungu": "서대문구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-13",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=03208b6093f2473da02e6a2f2c709fee&thumb=Y",
+      "gpsX": "126.930947128691",
+      "gpsY": "37.5764562255178",
+      "url": "https://archivist.kr/exi?m=gov&i=1788350215",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:금성 서화 소장품 기획전 [자연을 사랑한 화가들 展]",
       "title": "금성 서화 소장품 기획전 [자연을 사랑한 화가들 展]",
       "place": "금성아트스페이스 1층 전시실",
@@ -464,6 +480,22 @@
       "gpsX": "127.05857654275937",
       "gpsY": "37.520365085297456",
       "url": "https://www.instagram.com/p/DbpAtEQAVdh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:송인헌 기획초대전 [컬러의 들판: COLORED FIELD]",
+      "title": "송인헌 기획초대전 [컬러의 들판: COLORED FIELD]",
+      "place": "세종대학교 세종뮤지엄갤러리 2관",
+      "area": "서울",
+      "sigungu": "광진구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-16",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bd9999c1b34e4d6585ace5fc8645e2b7&thumb=Y",
+      "gpsX": "127.07318364213",
+      "gpsY": "37.5516093089619",
+      "url": "https://www.instagram.com/p/DcxKV0FGRqj/",
       "price": "무료",
       "source": "서울"
     },
@@ -580,22 +612,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
-      "title": "[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
-      "place": "남산골한옥마을 이승업 가옥",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a9e62386284a490e9bf203b66832ab7d&thumb=Y",
-      "gpsX": "126.994440072131",
-      "gpsY": "37.559304933707146",
-      "url": "https://www.hanokmaeul.co.kr/exhibition-now/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173287046&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[영등포문화재단] 2026 예술기술도시기획전 [인류학 연습: 인간은 우리인가?]",
       "title": "[영등포문화재단] 2026 예술기술도시기획전 [인류학 연습: 인간은 우리인가?]",
       "place": "종도빌딩 1층",
@@ -608,6 +624,22 @@
       "gpsX": "126.894348719109",
       "gpsY": "37.5126224731135",
       "url": "https://www.ydpcf.or.kr/artexhibit/view.do?id=570",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
+      "title": "[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
+      "place": "남산골한옥마을 이승업 가옥",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a9e62386284a490e9bf203b66832ab7d&thumb=Y",
+      "gpsX": "126.994440072131",
+      "gpsY": "37.559304933707146",
+      "url": "https://www.hanokmaeul.co.kr/exhibition-now/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173287046&t=board",
       "price": "무료",
       "source": "서울"
     },
