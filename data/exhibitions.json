@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-09-07T07:31+09:00",
+  "generatedAt": "2026-09-08T08:07+09:00",
   "sample": false,
-  "count": 89,
+  "count": 92,
   "items": [
-    {
-      "id": "seoul:[미림아트갤러리] 유민선 개인전 [불 / 투명 / 하게 / 보기]",
-      "title": "[미림아트갤러리] 유민선 개인전 [불 / 투명 / 하게 / 보기]",
-      "place": "미림아트갤러리(종로구 인사동길 11-1 미림아트 3F)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-07",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dac5b95cfdda4c26abd1188a9be18118&thumb=Y",
-      "gpsX": "126.986681102308",
-      "gpsY": "37.571852756212",
-      "url": "https://www.instagram.com/p/DckL1WEzggK/",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[노화랑] 김덕기 [빛이 머무는 Where Light Lingers]",
       "title": "[노화랑] 김덕기 [빛이 머무는 Where Light Lingers]",
@@ -96,6 +80,38 @@
       "gpsX": "127.049634813403",
       "gpsY": "37.5466269610008",
       "url": "https://www.instagram.com/p/DZpBfdgmDfj/?igsh=eTVoYnR0YzJmd3l3",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[운현궁] 2026 기획전시 [담다·머무르다_김주은 개인전]",
+      "title": "[운현궁] 2026 기획전시 [담다·머무르다_김주은 개인전]",
+      "place": "운현궁 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-08",
+      "endDate": "2026-09-13",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4fb294447a6a45058f3665028c4860c3&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=1976&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[아트센터림] 국경없는의사회 [구호데이_project95]",
+      "title": "[아트센터림] 국경없는의사회 [구호데이_project95]",
+      "place": "아트센터림 1층 아트윈도우, 2층 갤러리 1,2관",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-13",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=17615c4171654ff8bacdf4c45c389cf7&thumb=Y",
+      "gpsX": "126.982040842138",
+      "gpsY": "37.5790919031737",
+      "url": "https://www.artcenterlim.co.kr/programs/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173646808&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -276,22 +292,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
-      "title": "[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
-      "place": "남산골한옥마을 이승업 가옥",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-20",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a9e62386284a490e9bf203b66832ab7d&thumb=Y",
-      "gpsX": "126.994440072131",
-      "gpsY": "37.559304933707146",
-      "url": "https://www.hanokmaeul.co.kr/exhibition-now/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173287046&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[영등포문화재단] 2026 예술기술도시기획전 [인류학 연습: 인간은 우리인가?]",
       "title": "[영등포문화재단] 2026 예술기술도시기획전 [인류학 연습: 인간은 우리인가?]",
       "place": "종도빌딩 1층",
@@ -304,6 +304,22 @@
       "gpsX": "126.894348719109",
       "gpsY": "37.5126224731135",
       "url": "https://www.ydpcf.or.kr/artexhibit/view.do?id=570",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
+      "title": "[남산골한옥마을] 2026 남산골 아트 프로젝트 [겹, Layer-層] 첫 번째 선정 전시 《재(材)의 집》",
+      "place": "남산골한옥마을 이승업 가옥",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a9e62386284a490e9bf203b66832ab7d&thumb=Y",
+      "gpsX": "126.994440072131",
+      "gpsY": "37.559304933707146",
+      "url": "https://www.hanokmaeul.co.kr/exhibition-now/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173287046&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -1028,6 +1044,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울로봇인공지능과학관] 미디어파사드전시 [서울라임:로봇시티]",
+      "title": "[서울로봇인공지능과학관] 미디어파사드전시 [서울라임:로봇시티]",
+      "place": "서울로봇인공지능과학관 1층 및 정문 외관",
+      "area": "서울",
+      "sigungu": "도봉구",
+      "genre": "전시/미술",
+      "startDate": "2026-08-28",
+      "endDate": "2026-12-05",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d69b5c0f64c949c3a57da6461d4a81fc&thumb=Y",
+      "gpsX": "127.049506212905",
+      "gpsY": "37.6555838047766",
+      "url": "https://science.seoul.go.kr/RAIM/bbsctt/view.do?bbscttSn=2608280001&key=2304100032",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "366683",
       "title": "종로구립 박노수미술관 개관12주년 기념전시 「산수&middot;격물」",
       "place": "종로구립 박노수미술관",
@@ -1090,6 +1122,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[숙명여자대학교 정영양자수박물관] 이음-확장",
+      "title": "[숙명여자대학교 정영양자수박물관] 이음-확장",
+      "place": "숙명여자대학교 르네상스플라자 1층",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-05-04",
+      "endDate": "2026-12-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=52e233b5ee53432ba09471c9763c93ef&thumb=Y",
+      "gpsX": "126.965458400837",
+      "gpsY": "37.5438324857962",
+      "url": "https://home.sookmyung.ac.kr/chungyoungyang/6797/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY2h1bmd5b3VuZ3lhbmclMkY4NjQlMkYyMTYxOTAlMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNnNyY2hDb2x1bW4lM0QlMjZzcmNoV3JkJTNEJTI2YmJzQ2xTZXElM0QlMjZiYnNPcGVuV3JkU2VxJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnBhc3N3b3JkJTNEJTI2",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "269031",
