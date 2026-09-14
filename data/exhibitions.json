@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T07:43+09:00",
+  "generatedAt": "2026-09-15T08:34+09:00",
   "sample": false,
-  "count": 103,
+  "count": 97,
   "items": [
     {
       "id": "seoul:[미림아트갤러리] 박남희 개인전 [나, 그리고 집]",
@@ -196,6 +196,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[운현궁] 2026 기획전시 [꽃살문_이은정 개인전]",
+      "title": "[운현궁] 2026 기획전시 [꽃살문_이은정 개인전]",
+      "place": "운현궁 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-20",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4af40ceef3d34fb0ac78e916d932c8b9&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/total_list.php?abmode=view&no=1984&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[송파구청] 시대를 이어 맞잡는 손",
       "title": "[송파구청] 시대를 이어 맞잡는 손",
       "place": "문화실험공간 호수 2F 전시실",
@@ -356,6 +372,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[아케이드서울] 서문들 Texts after the Exhibition",
+      "title": "[아케이드서울] 서문들 Texts after the Exhibition",
+      "place": "아케이드 서울",
+      "area": "서울",
+      "sigungu": "영등포구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-23",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=660ab606751b4396b6dfac5ff4ef5c43&thumb=Y",
+      "gpsX": "126.894539872062",
+      "gpsY": "37.5155167575219",
+      "url": "https://archivist.kr/exi?m=gov&i=1789096838",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:배준현·황예랑 [빌려온 믿음 Borrowed Faith]",
       "title": "배준현·황예랑 [빌려온 믿음 Borrowed Faith]",
       "place": "오에이오에이",
@@ -482,22 +514,6 @@
       "url": "https://archives.seoul.go.kr/exhibitions-programs/programs/4600",
       "price": "무료",
       "source": "서울"
-    },
-    {
-      "id": "301234",
-      "title": "기록으로 산책하기_서울의 공원",
-      "place": "서울문화재단 본관",
-      "area": "서울",
-      "sigungu": "동대문구",
-      "genre": "전시",
-      "startDate": "2023-12-01",
-      "endDate": "2026-09-29",
-      "thumbnail": "http://www.culture.go.kr/upload/rdf/24/12/rdf_202412022124560550.jpg",
-      "gpsX": "127.03365593028",
-      "gpsY": "37.5715155220984",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
     },
     {
       "id": "seoul:[서울기록원] 기록으로 산책하기_서울의 공원 展",
@@ -660,6 +676,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서초문화재단] 서리풀청년아트갤러리 전시 [Fictionally Alibi]",
+      "title": "[서초문화재단] 서리풀청년아트갤러리 전시 [Fictionally Alibi]",
+      "place": "서리풀청년아트갤러리",
+      "area": "서울",
+      "sigungu": "서초구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-12",
+      "endDate": "2026-10-11",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=484092618bf745f0b55c6877b525be52&thumb=Y",
+      "gpsX": "127.013504028268",
+      "gpsY": "37.481137954971",
+      "url": "https://www.instagram.com/p/Dc7ZGyyz2zd/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울공예박물관] 공예동행@쇼윈도 #5. [사라진 뒤에도 이어지는 길 The Path that Remains]",
       "title": "[서울공예박물관] 공예동행@쇼윈도 #5. [사라진 뒤에도 이어지는 길 The Path that Remains]",
       "place": "전시3동  1층 쇼윈도 갤러리",
@@ -802,22 +834,6 @@
       "url": "https://www.doosangallery.com/kr/exhibitions/detail/238",
       "price": "무료",
       "source": "서울"
-    },
-    {
-      "id": "371782",
-      "title": "[광명업사이클아트센터] 2026 특별전시 업사이클 인터랙티브",
-      "place": "광명업사이클아트센터",
-      "area": "경기",
-      "sigungu": "광명시",
-      "genre": "전시",
-      "startDate": "2026-02-13",
-      "endDate": "2026-10-18",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202603/0544719806c64b2a9a64a99745680c53.jpg",
-      "gpsX": "126.87041674724502",
-      "gpsY": "37.46372530205799",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
     },
     {
       "id": "seoul:[서울시립 사진미술관] 마틴 파 : We Are Martin Parr",
@@ -1140,6 +1156,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:2026 코리아나미술관 소장품 기획전 [산수/풍경]",
+      "title": "2026 코리아나미술관 소장품 기획전 [산수/풍경]",
+      "place": "코리아나미술관 B1, B2",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-10",
+      "endDate": "2026-11-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e1f37efb66644a52b0497f15e1058e92&thumb=Y",
+      "gpsX": "127.032811048",
+      "gpsY": "37.5240691643",
+      "url": "http://www.spacec.co.kr/gallery/gallery2",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》",
       "title": "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》",
       "place": "이한열기념관 3층 기획전시실",
@@ -1170,22 +1202,6 @@
       "url": "https://science.seoul.go.kr/RAIM/bbsctt/view.do?bbscttSn=2608280001&key=2304100032",
       "price": "무료",
       "source": "서울"
-    },
-    {
-      "id": "366683",
-      "title": "종로구립 박노수미술관 개관12주년 기념전시 「산수&middot;격물」",
-      "place": "종로구립 박노수미술관",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시",
-      "startDate": "2025-09-19",
-      "endDate": "2026-12-06",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202601/e0a7e01144474b71b7e691bada7de617.jpg",
-      "gpsX": "126.96678911202187",
-      "gpsY": "37.5813162146987",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
     },
     {
       "id": "seoul:[종로문화재단] 2026 박노수미술관 작가 협업전시 [향, 산수를 물들이다]",
@@ -1236,22 +1252,6 @@
       "source": "서울"
     },
     {
-      "id": "366684",
-      "title": "고희동미술관 재개관 6주년기념전시  「만고상청萬古常靑: 군자의 품격」",
-      "place": "종로구립 고희동미술관",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시",
-      "startDate": "2025-09-05",
-      "endDate": "2026-12-27",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202601/603582085b0141128b2e8a9fb5319ba1.jpg",
-      "gpsX": "126.988895845689",
-      "gpsY": "37.5831462276504",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
       "id": "seoul:[서울아트책보고] 민음사 편집자가 추천하는 우리 회사 숨은 명작 30",
       "title": "[서울아트책보고] 민음사 편집자가 추천하는 우리 회사 숨은 명작 30",
       "place": "서울아트책보고 예술책방 내 팝업존",
@@ -1298,86 +1298,6 @@
       "url": "https://home.sookmyung.ac.kr/chungyoungyang/6797/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY2h1bmd5b3VuZ3lhbmclMkY4NjQlMkYyMTYxOTAlMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNnNyY2hDb2x1bW4lM0QlMjZzcmNoV3JkJTNEJTI2YmJzQ2xTZXElM0QlMjZiYnNPcGVuV3JkU2VxJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnBhc3N3b3JkJTNEJTI2",
       "price": "무료",
       "source": "서울"
-    },
-    {
-      "id": "269031",
-      "title": "국립중앙박물관 기증관 재개관",
-      "place": "국립중앙박물관",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시",
-      "startDate": "2024-01-12",
-      "endDate": "2026-12-31",
-      "thumbnail": "http://www.culture.go.kr/upload/rdf/24/02/show_2024021315381220366.png",
-      "gpsX": "126.98023689950804",
-      "gpsY": "37.52406305836529",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
-      "id": "339644",
-      "title": "SeMA 공용공간 프로젝트 《영원히 교차하는 춤》",
-      "place": "서울시립미술관",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시",
-      "startDate": "2025-08-13",
-      "endDate": "2026-12-31",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202603/97f52b7bd29048009113bc38d2f91910.jpg",
-      "gpsX": "126.97376336838333",
-      "gpsY": "37.56413824910192",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
-      "id": "396296",
-      "title": "하남역사박물관 이성산성 실감관 &lt;이성산성, 한강을 지배하다&gt;",
-      "place": "하남역사박물관",
-      "area": "경기",
-      "sigungu": "하남시",
-      "genre": "전시",
-      "startDate": "2021-03-25",
-      "endDate": "2026-12-31",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202609/5140e219993140be811b2547d12abb06.jpg",
-      "gpsX": "127.20608369133384",
-      "gpsY": "37.5454548377358",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
-      "id": "295982",
-      "title": "공룡AR트릭아트전",
-      "place": "화성어린이복합문화센터 아이누리극장",
-      "area": "경기",
-      "sigungu": "화성시",
-      "genre": "전시",
-      "startDate": "2024-01-01",
-      "endDate": "2026-12-31",
-      "thumbnail": "http://www.culture.go.kr/upload/rdf/24/11/rdf_2024110121225855972.jpg",
-      "gpsX": "126.960801928149",
-      "gpsY": "37.2123338652106",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
-      "id": "345071",
-      "title": "미디어&middot;아트 융합 전시 DREAM LIGHT",
-      "place": "수원시미디어센터",
-      "area": "경기",
-      "sigungu": "수원시",
-      "genre": "전시",
-      "startDate": "2025-09-26",
-      "endDate": "2026-12-31",
-      "thumbnail": "http://www.culture.go.kr/upload/rdf/25/09/show_2025091611132321211.jpg",
-      "gpsX": "127.022302807595",
-      "gpsY": "37.2840923041166",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
     },
     {
       "id": "seoul:팔색찬란 - K로 가득한 지역",
@@ -1458,22 +1378,6 @@
       "url": "https://www.songpafac.or.kr/notice_view.do?brd_seq=1318&curPage=&searchtype=&keyword=",
       "price": "무료",
       "source": "서울"
-    },
-    {
-      "id": "345441",
-      "title": "MMCA 해외 명작 : 수련과 샹들리에",
-      "place": "국립현대미술관 과천관",
-      "area": "경기",
-      "sigungu": "과천시",
-      "genre": "전시",
-      "startDate": "2025-10-02",
-      "endDate": "2027-01-03",
-      "thumbnail": "http://www.culture.go.kr/upload/rdf/25/09/rdf_2025091721221710441.jpg",
-      "gpsX": "127.02007201176697",
-      "gpsY": "37.43135813689219",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
     },
     {
       "id": "seoul:[서울시립 미술아카이브] 소장자료 기획전 [오윤]",
