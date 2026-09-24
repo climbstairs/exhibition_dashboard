@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:17+09:00",
+  "generatedAt": "2026-09-25T08:37+09:00",
   "sample": false,
   "count": 89,
   "items": [
@@ -372,22 +372,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울공예박물관] 제2회 서울시 유리지공예상 기념전",
-      "title": "[서울공예박물관] 제2회 서울시 유리지공예상 기념전",
-      "place": "서울공예박물관 전시1동 1층 로비",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-11",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4e7bc51c5f5d4e79ada8514eaaf90bf7&thumb=Y",
-      "gpsX": "126.983533363501",
-      "gpsY": "37.5766481740232",
-      "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/192",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울시립 서서울미술관] 플레이 라운지 《어쩌면 우리에게 더 멋진 일이 있을지도 몰라》",
       "title": "[서울시립 서서울미술관] 플레이 라운지 《어쩌면 우리에게 더 멋진 일이 있을지도 몰라》",
       "place": "서울시립 서서울미술관 1층 제3전시실",
@@ -400,6 +384,22 @@
       "gpsX": "126.894935931812",
       "gpsY": "37.4580752536422",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576627",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울공예박물관] 제2회 서울시 유리지공예상 기념전",
+      "title": "[서울공예박물관] 제2회 서울시 유리지공예상 기념전",
+      "place": "서울공예박물관 전시1동 1층 로비",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-11",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4e7bc51c5f5d4e79ada8514eaaf90bf7&thumb=Y",
+      "gpsX": "126.983533363501",
+      "gpsY": "37.5766481740232",
+      "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/192",
       "price": "무료",
       "source": "서울"
     },
