@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-10-07T09:13+09:00",
+  "generatedAt": "2026-10-08T09:31+09:00",
   "sample": false,
-  "count": 84,
+  "count": 89,
   "items": [
-    {
-      "id": "seoul:판화학교12기 졸업전시 Pt.2 [뚫고 나온 것들 What Came Through]",
-      "title": "판화학교12기 졸업전시 Pt.2 [뚫고 나온 것들 What Came Through]",
-      "place": "빠르크에디션",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-29",
-      "endDate": "2026-10-07",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ba711b2b0a41434991f1b9634930de4d&thumb=Y",
-      "gpsX": "127.0062606433",
-      "gpsY": "37.577161551961",
-      "url": "https://archivist.kr/exi?m=gov&i=1790221698",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[노화랑] 강민수 달항아리 Moon Jar",
       "title": "[노화랑] 강민수 달항아리 Moon Jar",
@@ -212,6 +196,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:이웅철 개인전 [안전거리]",
+      "title": "이웅철 개인전 [안전거리]",
+      "place": "INGAHEE",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-17",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=86341227a9b64885bd0e57d56a182b36&thumb=Y",
+      "gpsX": "126.99301974133",
+      "gpsY": "37.5415864542653",
+      "url": "https://archivist.kr/exi?m=gov&i=1791238237",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:제15회 두산연강예술상 수상자 정여름 개인전 [복수]",
       "title": "제15회 두산연강예술상 수상자 정여름 개인전 [복수]",
       "place": "두산아트센터 두산갤러리",
@@ -260,6 +260,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[한성백제박물관] 땅속서울 : Underground Seoul 2000 - 백제 토기",
+      "title": "[한성백제박물관] 땅속서울 : Underground Seoul 2000 - 백제 토기",
+      "place": "한성백제박물관 기획전시실2",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-15",
+      "endDate": "2026-10-18",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=149f799af0ea4ff0ba884f493fc48af6&thumb=Y",
+      "gpsX": "127.12088940368128",
+      "gpsY": "37.51543881335773",
+      "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=a&code=DP&mmode=content&mpid=SBM0203000000&pid=23568",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울시립 사진미술관] 마틴 파 : We Are Martin Parr",
       "title": "[서울시립 사진미술관] 마틴 파 : We Are Martin Parr",
       "place": "서울시립 사진미술관 2층 영상홀, 서울시립 사진미술관 2층 1,2,3,4전시실",
@@ -288,6 +304,38 @@
       "gpsX": "126.989854099281",
       "gpsY": "37.5664621449086",
       "url": "https://archivist.kr/exi?m=gov&i=1790806191",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:최은지 개인전 [지도에 없는 장소에 그림자를 붙이고 있었다]",
+      "title": "최은지 개인전 [지도에 없는 장소에 그림자를 붙이고 있었다]",
+      "place": "콤플렉스",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-24",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a0d2055378964674b0b3a013be2fc7b7&thumb=Y",
+      "gpsX": "126.976845515427",
+      "gpsY": "37.5510827221899",
+      "url": "https://archivist.kr/exi?m=gov&i=1791086082",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:정미옥 초대전 [In-Between]",
+      "title": "정미옥 초대전 [In-Between]",
+      "place": "갤러리제이원 서울 1,2F",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3d76ac8e3111418eac08c3b0f3bd5b50&thumb=Y",
+      "gpsX": "126.980738496133",
+      "gpsY": "37.5825613346848",
+      "url": "https://www.galleryjone.com/208",
       "price": "무료",
       "source": "서울"
     },
@@ -388,6 +436,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:땅땅땅-잇있잊 TTang! TTang! TTang! Placed",
+      "title": "땅땅땅-잇있잊 TTang! TTang! TTang! Placed",
+      "place": "보안여관",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7f0bd748a6f0411c8b15f49a10532bee&thumb=Y",
+      "gpsX": "126.973630299897",
+      "gpsY": "37.579117894432",
+      "url": "https://archivist.kr/exi?m=gov&i=1789439531",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[갤러리 508] Japanese Pop Trio II",
       "title": "[갤러리 508] Japanese Pop Trio II",
       "place": "갤러리508",
@@ -400,6 +464,22 @@
       "gpsX": "127.044705546448",
       "gpsY": "37.5249920319161",
       "url": "https://archivist.kr/exi?m=gov&i=1788095782",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울공예박물관] 시간이 쌓이는 집",
+      "title": "[서울공예박물관] 시간이 쌓이는 집",
+      "place": "공예별당",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-29",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd9c22ed10934ac5a2079d6255642e7d&thumb=Y",
+      "gpsX": "126.983533363501",
+      "gpsY": "37.5766481740232",
+      "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/195",
       "price": "무료",
       "source": "서울"
     },
