@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T09:03+09:00",
+  "generatedAt": "2026-10-13T11:18+09:00",
   "sample": false,
-  "count": 85,
+  "count": 89,
   "items": [
     {
       "id": "seoul:[서울시립미술관] 아마도, 모두 우리 [Perhaps, All of Us] 캐나다 전시",
@@ -16,6 +16,22 @@
       "gpsX": "75.6917°W",
       "gpsY": "45.4215°N",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1570835",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:석사학위 청구전 [Our Own Shelter] 한지연 · 박세빈",
+      "title": "석사학위 청구전 [Our Own Shelter] 한지연 · 박세빈",
+      "place": "갤러리 지하",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-15",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5971b78c6a20403480906af33fc79991&thumb=Y",
+      "gpsX": "126.93267709449",
+      "gpsY": "37.5534782220949",
+      "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009108&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -82,6 +98,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
+      "title": "[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
+      "place": "운현궁 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-18",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=30aff1214d3b42a494cc8d71b7d246a8&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2005&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [THE OTHERS]",
@@ -160,6 +192,22 @@
       "gpsX": "126.976845515427",
       "gpsY": "37.5510827221899",
       "url": "https://archivist.kr/exi?m=gov&i=1791086082",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 II - 10월 테마전시체험전 [나의 특별한 섬]",
+      "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 10월 테마전시체험전 [나의 특별한 섬]",
+      "place": "구립증산도서관 3층 가족열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-24",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8d6be18e6f754405a79f9f4962c8e16c&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=229833",
       "price": "무료",
       "source": "서울"
     },
@@ -516,22 +564,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
-      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
-      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
-      "gpsX": "126.978905928626",
-      "gpsY": "37.5467149767878",
-      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
@@ -544,6 +576,22 @@
       "gpsX": "126.98462160059339",
       "gpsY": "37.5463950137629",
       "url": "https://blog.naver.com/sosulguem_official/224427581100",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
+      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
+      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
+      "gpsX": "126.978905928626",
+      "gpsY": "37.5467149767878",
+      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -673,6 +721,22 @@
       "gpsY": "37.550550",
       "url": "https://www.seoulchildrensmuseum.org/display/displayExhibition25.do",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:서울대학교 개교 80주년 기념전 [새로운 미래]",
+      "title": "서울대학교 개교 80주년 기념전 [새로운 미래]",
+      "place": "서울대학교미술관 코어라운지(B1·B2) 렉처홀(2F)",
+      "area": "서울",
+      "sigungu": "관악구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-22",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d5873e77820d4f22a72af2841c8a8823&thumb=Y",
+      "gpsX": "126.94968625158943",
+      "gpsY": "37.46654273388439",
+      "url": "http://www.snumoa.org/exhibitions_view.php?exh_id=196",
+      "price": "무료",
       "source": "서울"
     },
     {
