@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T11:18+09:00",
+  "generatedAt": "2026-10-14T09:01+09:00",
   "sample": false,
-  "count": 89,
+  "count": 90,
   "items": [
     {
       "id": "seoul:[서울시립미술관] 아마도, 모두 우리 [Perhaps, All of Us] 캐나다 전시",
@@ -98,6 +98,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[서울디자인재단] 2026 DDP디자인페어",
+      "title": "[서울디자인재단] 2026 DDP디자인페어",
+      "place": "아트홀 1관, 2관, 컨퍼런스홀",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-18",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=44ce3398bc82408f9ce1ab98167f64bf&thumb=Y",
+      "gpsX": "127.00977973484339",
+      "gpsY": "37.56735731522952",
+      "url": "https://ddp.or.kr/?menuno=241&siteno=1&boardno=16&act=view&bbsno=781",
+      "price": "유료",
+      "source": "서울"
     },
     {
       "id": "seoul:[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
@@ -564,22 +580,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y",
-      "gpsX": "126.98462160059339",
-      "gpsY": "37.5463950137629",
-      "url": "https://blog.naver.com/sosulguem_official/224427581100",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
       "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
       "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
@@ -592,6 +592,22 @@
       "gpsX": "126.978905928626",
       "gpsY": "37.5467149767878",
       "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
+      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
+      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y",
+      "gpsX": "126.98462160059339",
+      "gpsY": "37.5463950137629",
+      "url": "https://blog.naver.com/sosulguem_official/224427581100",
       "price": "무료",
       "source": "서울"
     },
