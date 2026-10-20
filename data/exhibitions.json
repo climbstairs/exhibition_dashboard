@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-20T09:00+09:00",
+  "generatedAt": "2026-10-21T08:31+09:00",
   "sample": false,
-  "count": 99,
+  "count": 106,
   "items": [
     {
       "id": "seoul:전시 [접촉화면]",
@@ -96,6 +96,22 @@
       "gpsX": "126.98708335796199",
       "gpsY": "37.57607864675475",
       "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2007&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:농담(濃淡): 논산의 이야기를 담다",
+      "title": "농담(濃淡): 논산의 이야기를 담다",
+      "place": "CN갤러리",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb741d84811c46e2bf09e0290f50efec&thumb=Y",
+      "gpsX": "126.98194008394555",
+      "gpsY": "37.58003784134938",
+      "url": "https://archivist.kr/exi?m=gov&i=1792105502",
       "price": "무료",
       "source": "서울"
     },
@@ -256,6 +272,38 @@
       "gpsX": "126.973699316136",
       "gpsY": "37.5641060692766",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1529410",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 아트한,우리展 [각자의 지금]",
+      "title": "2026 아트한,우리展 [각자의 지금]",
+      "place": "유나이티드 갤러리",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0d474cfb6f1341e09c8b866ef8bacb49&thumb=Y",
+      "gpsX": "127.028039529728",
+      "gpsY": "37.5035654348927",
+      "url": "https://www.shc.or.kr/main/sub.html?Mode=view&boardID=www44&num=5429&page=&keyfield=&key=&bCate=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[미림아트갤러리] 소소화 제1회 회원전 [그려진 시간들]",
+      "title": "[미림아트갤러리] 소소화 제1회 회원전 [그려진 시간들]",
+      "place": "미림아트갤러리 (종로구 인사동길 11-1 미림아트 3F)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=170290281ac34829aee45bbd811900ea&thumb=Y",
+      "gpsX": "126.986681102308",
+      "gpsY": "37.571852756212",
+      "url": "https://www.instagram.com/p/DeqH_ohvlqS/",
       "price": "무료",
       "source": "서울"
     },
@@ -804,6 +852,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[김근태기념도서관] 10월 오픈도서관 《원추리와 깊은 별》",
+      "title": "[김근태기념도서관] 10월 오픈도서관 《원추리와 깊은 별》",
+      "place": "김근태기념도서관 3층 기억곳3",
+      "area": "서울",
+      "sigungu": "도봉구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-21",
+      "endDate": "2026-11-22",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=480feca3f9574462a75db7a72123bbb9&thumb=Y",
+      "gpsX": "127.044019937677",
+      "gpsY": "37.6876674374375",
+      "url": "https://www.instagram.com/p/DeeQUcTD4Av/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:서울대학교 개교 80주년 기념전 [새로운 미래]",
       "title": "서울대학교 개교 80주년 기념전 [새로운 미래]",
       "place": "서울대학교미술관 코어라운지(B1·B2) 렉처홀(2F)",
@@ -978,6 +1042,22 @@
       "url": "",
       "price": "",
       "source": "문화포털"
+    },
+    {
+      "id": "seoul:[서울아트책보고] 기획전시 《아트북그라피: 예술과 출판이 교차하는 지형》",
+      "title": "[서울아트책보고] 기획전시 《아트북그라피: 예술과 출판이 교차하는 지형》",
+      "place": "서울아트책보고 갤러리",
+      "area": "서울",
+      "sigungu": "구로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-07",
+      "endDate": "2026-12-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e8916a2b90d74f6dbb79ae3574b279a8&thumb=Y",
+      "gpsX": "126.867088741096",
+      "gpsY": "37.4982125677913",
+      "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=28135",
+      "price": "무료",
+      "source": "서울"
     },
     {
       "id": "seoul:[종로문화재단] 2026 박노수미술관 작가 협업전시 [향, 산수를 물들이다]",
@@ -1348,6 +1428,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울시립미술관 서소문본관] 린 허쉬만 리슨: 나의 [나]들",
+      "title": "[서울시립미술관 서소문본관] 린 허쉬만 리슨: 나의 [나]들",
+      "place": "서울시립미술관 서소문본관",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-21",
+      "endDate": "2027-02-21",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8be072d96c9a429c80bc789679727b47&thumb=Y",
+      "gpsX": "126.973699316136",
+      "gpsY": "37.5641060692766",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1559068",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울디자인재단] 현대카드 컬처프로젝트 31 웨인 티보 전 [The Order of Things]",
       "title": "[서울디자인재단] 현대카드 컬처프로젝트 31 웨인 티보 전 [The Order of Things]",
       "place": "DDP 뮤지엄 전시 1관",
@@ -1584,6 +1680,22 @@
       "gpsX": "126.93482332974094",
       "gpsY": "37.6075510290657",
       "url": "https://archives.seoul.go.kr/main",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울기록원] 예술가들이 기록한 도시",
+      "title": "[서울기록원] 예술가들이 기록한 도시",
+      "place": "서울기록원 2층 제2전시실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-20",
+      "endDate": "2029-08-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ca99afeb8a1e471abee1088b2583b9aa&thumb=Y",
+      "gpsX": "126.93482332974094",
+      "gpsY": "37.6075510290657",
+      "url": "https://archives.seoul.go.kr/exhibitions-programs/exhibitions/5980",
       "price": "무료",
       "source": "서울"
     }
