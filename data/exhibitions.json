@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T07:40+09:00",
+  "generatedAt": "2026-10-20T09:00+09:00",
   "sample": false,
-  "count": 93,
+  "count": 99,
   "items": [
     {
       "id": "seoul:전시 [접촉화면]",
@@ -80,6 +80,22 @@
       "gpsX": "126.907671330325",
       "gpsY": "37.5828094398328",
       "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=229833",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[운현궁] 2026 기획전시 [색·동x색·경 色·動x色·鏡]",
+      "title": "[운현궁] 2026 기획전시 [색·동x색·경 色·動x色·鏡]",
+      "place": "운현궁 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5b1f8db47cb744e1b659101b305e3942&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2007&group=basic&code=B35",
       "price": "무료",
       "source": "서울"
     },
@@ -292,6 +308,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[관악문화재단] 2026 S1472 신진예술인 단체전 [다층시선]",
+      "title": "[관악문화재단] 2026 S1472 신진예술인 단체전 [다층시선]",
+      "place": "관천로 문화플랫폼 S1472",
+      "area": "서울",
+      "sigungu": "관악구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=134dc947b5a448d2ae40eb9af7dee065&thumb=Y",
+      "gpsX": "126.925774880088",
+      "gpsY": "37.4841127974646",
+      "url": "https://gfac.or.kr/site/main/performance/EXHIBITION/view/347",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:하늘의 빛, 땅의 빛 _박경리 『토지』, 그림으로 만나다",
       "title": "하늘의 빛, 땅의 빛 _박경리 『토지』, 그림으로 만나다",
       "place": "교보아트스페이스",
@@ -400,6 +432,22 @@
       "gpsX": "126.962346971703",
       "gpsY": "37.5977661011895",
       "url": "https://archivist.kr/exi?m=gov&i=1791410498",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[송파 청년아티스트센터] 3기 릴레이 개인전 [dot to dot] - 권봉균",
+      "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [dot to dot] - 권봉균",
+      "place": "송파 청년아티스트센터 지하1층 아트 스페이스",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-31",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8a2bfeac7a0b480884169bf5b7e5c3e0&thumb=Y",
+      "gpsX": "127.115954729217",
+      "gpsY": "37.5340686405498",
+      "url": "https://www.instagram.com/p/DeiOxrZPvhl/",
       "price": "무료",
       "source": "서울"
     },
@@ -548,6 +596,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[노원문화재단] 2026 노원 NEXT: 민하형 개인전 [피-빼기]",
+      "title": "[노원문화재단] 2026 노원 NEXT: 민하형 개인전 [피-빼기]",
+      "place": "경춘선숲길 갤러리",
+      "area": "서울",
+      "sigungu": "노원구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-04",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3cf14194779f459cb13d664ca7529ef5&thumb=Y",
+      "gpsX": "127.093707085206",
+      "gpsY": "37.6250819894787",
+      "url": "https://nowonarts.kr/channels/exhibition/programs/1074",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:박성민 [형태를 지나 결에 머물다]",
       "title": "박성민 [형태를 지나 결에 머물다]",
       "place": "노화랑 1,2층 전시장",
@@ -564,22 +628,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y",
-      "gpsX": "126.98462160059339",
-      "gpsY": "37.5463950137629",
-      "url": "https://blog.naver.com/sosulguem_official/224427581100",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
       "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
       "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
@@ -592,6 +640,22 @@
       "gpsX": "126.978905928626",
       "gpsY": "37.5467149767878",
       "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
+      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
+      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=199a22b3df904f96a192634ce3f4bafa&thumb=Y",
+      "gpsX": "126.98462160059339",
+      "gpsY": "37.5463950137629",
+      "url": "https://blog.naver.com/sosulguem_official/224427581100",
       "price": "무료",
       "source": "서울"
     },
@@ -804,6 +868,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "area": "서울",
+      "sigungu": "양천구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
+      "gpsX": "126.832145349117",
+      "gpsY": "37.5282197824835",
+      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "place": "갤러리 그라프 전시실",
@@ -820,18 +900,18 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "id": "seoul:서울시립미술관 & 노원문화재단 협력전시 《SeMA Collection: 시선의 결》",
+      "title": "서울시립미술관 & 노원문화재단 협력전시 《SeMA Collection: 시선의 결》",
+      "place": "노원문화예술회관 4층, 노원아트뮤지엄",
       "area": "서울",
-      "sigungu": "양천구",
+      "sigungu": "노원구",
       "genre": "전시/미술",
       "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
-      "gpsX": "126.832145349117",
-      "gpsY": "37.5282197824835",
-      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
+      "endDate": "2026-11-29",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3418f4aed09c4228a3a641e9977ea78f&thumb=Y",
+      "gpsX": "127.080267103033",
+      "gpsY": "37.6502368524442",
+      "url": "https://www.nowonarts.kr/channels/exhibition/programs/1073",
       "price": "무료",
       "source": "서울"
     },
@@ -1440,6 +1520,22 @@
       "gpsX": "127.066865579183",
       "gpsY": "37.6406604547872",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1512457",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[중랑아트센터] 미디어 체험전 [반짝 깜빡 사르르]",
+      "title": "[중랑아트센터] 미디어 체험전 [반짝 깜빡 사르르]",
+      "place": "중랑아트센터 실감미디어 전시실",
+      "area": "서울",
+      "sigungu": "중랑구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-02",
+      "endDate": "2027-07-03",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c36577024a704afbb8e7cb5ffce68a71&thumb=Y",
+      "gpsX": "127.091624142481",
+      "gpsY": "37.5983328190955",
+      "url": "https://www.jnfac.or.kr/art/show/view/16602",
       "price": "무료",
       "source": "서울"
     },
