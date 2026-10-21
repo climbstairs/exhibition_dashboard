@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-10-21T08:31+09:00",
+  "generatedAt": "2026-10-22T08:47+09:00",
   "sample": false,
-  "count": 106,
+  "count": 105,
   "items": [
-    {
-      "id": "seoul:전시 [접촉화면]",
-      "title": "전시 [접촉화면]",
-      "place": "스페이스 카다로그",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-21",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0bab327894d54ec183839206bb3be282&thumb=Y",
-      "gpsX": "126.989854099281",
-      "gpsY": "37.5664621449086",
-      "url": "https://archivist.kr/exi?m=gov&i=1790806191",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:포개진 지도 - 미시적이지만 거시적인 풍경",
       "title": "포개진 지도 - 미시적이지만 거시적인 풍경",
@@ -676,22 +660,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
-      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
-      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
-      "gpsX": "126.978905928626",
-      "gpsY": "37.5467149767878",
-      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
@@ -704,6 +672,22 @@
       "gpsX": "126.98462160059339",
       "gpsY": "37.5463950137629",
       "url": "https://blog.naver.com/sosulguem_official/224427581100",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
+      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
+      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
+      "gpsX": "126.978905928626",
+      "gpsY": "37.5467149767878",
+      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
       "price": "무료",
       "source": "서울"
     },
