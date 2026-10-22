@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T08:47+09:00",
+  "generatedAt": "2026-10-23T08:44+09:00",
   "sample": false,
-  "count": 105,
+  "count": 106,
   "items": [
     {
       "id": "seoul:포개진 지도 - 미시적이지만 거시적인 풍경",
@@ -64,6 +64,22 @@
       "gpsX": "126.907671330325",
       "gpsY": "37.5828094398328",
       "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=229833",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 제5회 전국 승가원 [장애공감 어린이 그림공모전 수상작 전시] 나답게, 너답게, 우리답게!",
+      "title": "2026 제5회 전국 승가원 [장애공감 어린이 그림공모전 수상작 전시] 나답게, 너답게, 우리답게!",
+      "place": "한국장애인문화예술원 이음갤러리",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c978b819995644ac870c98f086db5107&thumb=Y",
+      "gpsX": "127.002398629301",
+      "gpsY": "37.5811899477465",
+      "url": "https://sgwon.or.kr/introduce/04.php?admin_mode=read&no=181612",
       "price": "무료",
       "source": "서울"
     },
@@ -260,22 +276,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 아트한,우리展 [각자의 지금]",
-      "title": "2026 아트한,우리展 [각자의 지금]",
-      "place": "유나이티드 갤러리",
-      "area": "서울",
-      "sigungu": "강남구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-21",
-      "endDate": "2026-10-26",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0d474cfb6f1341e09c8b866ef8bacb49&thumb=Y",
-      "gpsX": "127.028039529728",
-      "gpsY": "37.5035654348927",
-      "url": "https://www.shc.or.kr/main/sub.html?Mode=view&boardID=www44&num=5429&page=&keyfield=&key=&bCate=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[미림아트갤러리] 소소화 제1회 회원전 [그려진 시간들]",
       "title": "[미림아트갤러리] 소소화 제1회 회원전 [그려진 시간들]",
       "place": "미림아트갤러리 (종로구 인사동길 11-1 미림아트 3F)",
@@ -288,6 +288,22 @@
       "gpsX": "126.986681102308",
       "gpsY": "37.571852756212",
       "url": "https://www.instagram.com/p/DeqH_ohvlqS/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 아트한,우리展 [각자의 지금]",
+      "title": "2026 아트한,우리展 [각자의 지금]",
+      "place": "유나이티드 갤러리",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0d474cfb6f1341e09c8b866ef8bacb49&thumb=Y",
+      "gpsX": "127.028039529728",
+      "gpsY": "37.5035654348927",
+      "url": "https://www.shc.or.kr/main/sub.html?Mode=view&boardID=www44&num=5429&page=&keyfield=&key=&bCate=",
       "price": "무료",
       "source": "서울"
     },
@@ -525,8 +541,8 @@
       "startDate": "2026-10-01",
       "endDate": "2026-10-31",
       "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f056eb6cc40d4e5594b181eb65cc5297&thumb=Y",
-      "gpsX": "126.967906461707",
-      "gpsY": "37.6057079931502",
+      "gpsX": "126.96904312496109",
+      "gpsY": "37.60603328383823",
       "url": "https://doam.me/Exhibition_Information/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173878058&t=board",
       "price": "무료",
       "source": "서울"
@@ -916,22 +932,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
-      "area": "서울",
-      "sigungu": "양천구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
-      "gpsX": "126.832145349117",
-      "gpsY": "37.5282197824835",
-      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "place": "갤러리 그라프 전시실",
@@ -944,6 +944,22 @@
       "gpsX": "127.046743383017",
       "gpsY": "37.5234788204389",
       "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "area": "서울",
+      "sigungu": "양천구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
+      "gpsX": "126.832145349117",
+      "gpsY": "37.5282197824835",
+      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
       "price": "무료",
       "source": "서울"
     },
