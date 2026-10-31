@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-10-30T09:29+09:00",
+  "generatedAt": "2026-10-31T09:14+09:00",
   "sample": false,
-  "count": 91,
+  "count": 90,
   "items": [
-    {
-      "id": "seoul:한솔비 [식빵 자세]",
-      "title": "한솔비 [식빵 자세]",
-      "place": "갤러리메일란",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e6615d4412f4d6aa821da32fc62e2bb&thumb=Y",
-      "gpsX": "126.962346971703",
-      "gpsY": "37.5977661011895",
-      "url": "https://archivist.kr/exi?m=gov&i=1791410498",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:전시 [IMPRINTS OF TIME]",
       "title": "전시 [IMPRINTS OF TIME]",
@@ -644,22 +628,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "place": "갤러리 그라프 전시실",
-      "area": "서울",
-      "sigungu": "강남구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
-      "gpsX": "127.046743383017",
-      "gpsY": "37.5234788204389",
-      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
@@ -672,6 +640,22 @@
       "gpsX": "126.832145349117",
       "gpsY": "37.5282197824835",
       "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "place": "갤러리 그라프 전시실",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
+      "gpsX": "127.046743383017",
+      "gpsY": "37.5234788204389",
+      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
       "price": "무료",
       "source": "서울"
     },
