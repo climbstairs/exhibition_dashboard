@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-05T10:09+09:00",
+  "generatedAt": "2026-11-06T10:15+09:00",
   "sample": false,
-  "count": 91,
+  "count": 94,
   "items": [
-    {
-      "id": "seoul:박성민 [형태를 지나 결에 머물다]",
-      "title": "박성민 [형태를 지나 결에 머물다]",
-      "place": "노화랑 1,2층 전시장",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-05",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=aaaa57b5490d415a93830ddd9fef8865&thumb=Y",
-      "gpsX": "126.984085733694",
-      "gpsY": "37.5748603162364",
-      "url": "https://rhogallery.com/ko/park-sungmin/",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:홍현기 개인전 [환기(換氣): 바람이 지나간 자리]",
       "title": "홍현기 개인전 [환기(換氣): 바람이 지나간 자리]",
@@ -100,22 +84,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
-      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
-      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
-      "gpsX": "126.978905928626",
-      "gpsY": "37.5467149767878",
-      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
       "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
@@ -128,6 +96,22 @@
       "gpsX": "126.98462160059339",
       "gpsY": "37.5463950137629",
       "url": "https://blog.naver.com/sosulguem_official/224427581100",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:TASTE OF GREEN(테이스트 오브 그린) 展",
+      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
+      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2026-11-08",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=180d3c8c592144d19aabadb5acf794f3&thumb=Y",
+      "gpsX": "126.978905928626",
+      "gpsY": "37.5467149767878",
+      "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -260,22 +244,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
-      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
-      "place": "상업화랑 용산",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-12",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
-      "gpsX": "126.969207523303",
-      "gpsY": "37.542073059985",
-      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:유별남 사진전 [兪  ;  그러하다]",
       "title": "유별남 사진전 [兪  ;  그러하다]",
       "place": "와이아트 갤러리",
@@ -288,6 +256,22 @@
       "gpsX": "126.991642957434",
       "gpsY": "37.5623817630809",
       "url": "https://blog.naver.com/gu5658/224450449586",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
+      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
+      "place": "상업화랑 용산",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-12",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
+      "gpsX": "126.969207523303",
+      "gpsY": "37.542073059985",
+      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
       "price": "무료",
       "source": "서울"
     },
@@ -336,6 +320,22 @@
       "gpsX": "127.101092270844",
       "gpsY": "37.5103180005696",
       "url": "https://blog.naver.com/exp_space_hosu/224457561745",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:세종뮤지엄갤러리 기획초대전 [사이-숨 : 떠있는 시간, 떠도는 공간] 황성준",
+      "title": "세종뮤지엄갤러리 기획초대전 [사이-숨 : 떠있는 시간, 떠도는 공간] 황성준",
+      "place": "세종뮤지엄갤러리 2관",
+      "area": "서울",
+      "sigungu": "광진구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-15",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d90a9f0a47704b9fb57486289e057ef9&thumb=Y",
+      "gpsX": "127.07318364213",
+      "gpsY": "37.5516093089619",
+      "url": "https://www.instagram.com/p/DfGjhuZoRG3/",
       "price": "무료",
       "source": "서울"
     },
@@ -401,6 +401,22 @@
       "gpsY": "37.550550",
       "url": "https://www.seoulchildrensmuseum.org/display/displayExhibition25.do",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 국민대학교 입체미술전공 졸업전시 [토큰이 없어 내일 제목을 생성하기로 했다.]",
+      "title": "2026 국민대학교 입체미술전공 졸업전시 [토큰이 없어 내일 제목을 생성하기로 했다.]",
+      "place": "국민대학교 예술대학",
+      "area": "서울",
+      "sigungu": "성북구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-16",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=df97d862cc3e4023965dd3ff5b6e5537&thumb=Y",
+      "gpsX": "126.99783114262499",
+      "gpsY": "37.610190885994236",
+      "url": "https://archivist.kr/exi?m=gov&i=1793014241",
+      "price": "무료",
       "source": "서울"
     },
     {
@@ -480,6 +496,22 @@
       "gpsX": "126.973699316136",
       "gpsY": "37.5641060692766",
       "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1509709",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
+      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
+      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-24",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e441561b3d57493d977c457ff2cdfabd&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234576&manageCd=MB&searchTarget=&searchStatus=OPEN",
       "price": "무료",
       "source": "서울"
     },
@@ -737,6 +769,22 @@
       "gpsY": "37.5813191962491",
       "url": "https://www.jfac.or.kr/site/main/program/perf_exhi_list_view?pgIdx=2519",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
+      "title": "[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
+      "place": "교보아트스페이스",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-03",
+      "endDate": "2026-12-13",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7951b5354d1946df8576ae18328ac8c8&thumb=Y",
+      "gpsX": "126.97791812044534",
+      "gpsY": "37.57098891966223",
+      "url": "https://store.kyobobook.co.kr/culture/art-space/877",
+      "price": "무료",
       "source": "서울"
     },
     {
