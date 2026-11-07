@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-06T10:15+09:00",
+  "generatedAt": "2026-11-07T09:29+09:00",
   "sample": false,
-  "count": 94,
+  "count": 98,
   "items": [
     {
       "id": "seoul:홍현기 개인전 [환기(換氣): 바람이 지나간 자리]",
@@ -244,22 +244,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:유별남 사진전 [兪  ;  그러하다]",
-      "title": "유별남 사진전 [兪  ;  그러하다]",
-      "place": "와이아트 갤러리",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-12",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=357b933606d648e3a3984af8c3ca68fd&thumb=Y",
-      "gpsX": "126.991642957434",
-      "gpsY": "37.5623817630809",
-      "url": "https://blog.naver.com/gu5658/224450449586",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
       "title": "박지혜 개인전 [그 날 이후 Since The Day]",
       "place": "상업화랑 용산",
@@ -272,6 +256,22 @@
       "gpsX": "126.969207523303",
       "gpsY": "37.542073059985",
       "url": "https://archivist.kr/exi?m=gov&i=1793656391",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:유별남 사진전 [兪  ;  그러하다]",
+      "title": "유별남 사진전 [兪  ;  그러하다]",
+      "place": "와이아트 갤러리",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-12",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=357b933606d648e3a3984af8c3ca68fd&thumb=Y",
+      "gpsX": "126.991642957434",
+      "gpsY": "37.5623817630809",
+      "url": "https://blog.naver.com/gu5658/224450449586",
       "price": "무료",
       "source": "서울"
     },
@@ -304,6 +304,22 @@
       "gpsX": "127.032601556099",
       "gpsY": "37.5981380921564",
       "url": "https://www.sb.go.kr/literature/culture/bbs/bbsMsgDetail.do?msg_seq=24&bcd=special",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 스페이스세컨뷰의 김지혜 초대 개인전 [오래 피는 마음]",
+      "title": "2026 스페이스세컨뷰의 김지혜 초대 개인전 [오래 피는 마음]",
+      "place": "스페이스세컨뷰",
+      "area": "서울",
+      "sigungu": "서초구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-15",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8a09b17db70548f39a25739ab08a6e4c&thumb=Y",
+      "gpsX": "127.019623102918",
+      "gpsY": "37.4875349783628",
+      "url": "https://www.secondview.kr/projects/%EC%98%A4%EB%9E%98-%ED%94%BC%EB%8A%94-%EB%A7%88%EC%9D%8C",
       "price": "무료",
       "source": "서울"
     },
@@ -516,6 +532,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
+      "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
+      "place": "구립증산도서관 3층 가족열람실",
+      "area": "서울",
+      "sigungu": "은평구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-25",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6a5d3de158384cd683418af712576418&thumb=Y",
+      "gpsX": "126.907671330325",
+      "gpsY": "37.5828094398328",
+      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234631&manageCd=MB&searchTarget=&searchStatus=OPEN",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "title": "[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "place": "은평문화예술회관 전시실(지하1층)",
@@ -528,6 +560,22 @@
       "gpsX": "126.927901672834",
       "gpsY": "37.6036996869964",
       "url": "https://www.efac.or.kr/page02/sub01.php?type=view&uid=5427",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[주석모음집] 전시를 만드는 일에 대하여",
+      "title": "[주석모음집] 전시를 만드는 일에 대하여",
+      "place": "화-일요일 13:00~19:00",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b9f895aad74b41669941d54980fa739e&thumb=Y",
+      "gpsX": "127.009089447244",
+      "gpsY": "37.5772195722771",
+      "url": "https://archivist.kr/exi?m=gov&i=1793653275",
       "price": "무료",
       "source": "서울"
     },
@@ -1124,22 +1172,6 @@
       "source": "문화포털"
     },
     {
-      "id": "seoul:[소마미술관] 기념에서 풍경으로",
-      "title": "[소마미술관] 기념에서 풍경으로",
-      "place": "소마미술관 1관 1~5전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-17",
-      "endDate": "2027-02-14",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=80b85ce1013346b48856c5550086748c&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/239",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:한불수교 140주년 [기념에서 풍경으로 From Monument to Landscape]",
       "title": "한불수교 140주년 [기념에서 풍경으로 From Monument to Landscape]",
       "place": "소마미술관",
@@ -1152,6 +1184,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://archivist.kr/exi?m=gov&i=1792833372",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 기념에서 풍경으로",
+      "title": "[소마미술관] 기념에서 풍경으로",
+      "place": "소마미술관 1관 1~5전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-17",
+      "endDate": "2027-02-14",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=80b85ce1013346b48856c5550086748c&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/239",
       "price": "유료",
       "source": "서울"
     },
@@ -1264,6 +1312,22 @@
       "gpsX": "126.98338815886143",
       "gpsY": "37.57189081127559",
       "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=&currentPage=&seq=20260623170800431&ctgCd=&showSummaryYn=N",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울생활사박물관] 육아 가족의 성장",
+      "title": "[서울생활사박물관] 육아 가족의 성장",
+      "place": "서울생활사박물관 기획전시실",
+      "area": "서울",
+      "sigungu": "노원구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-06",
+      "endDate": "2027-03-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2c253e9b5b2d4d05af5e021559063d7b&thumb=Y",
+      "gpsX": "127.076936195632",
+      "gpsY": "37.6201739154268",
+      "url": "https://museum.seoul.go.kr/sulm/board/NR_boardList.do?bbsCd=1002",
       "price": "무료",
       "source": "서울"
     },
