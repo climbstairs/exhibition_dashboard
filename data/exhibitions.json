@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T09:29+09:00",
+  "generatedAt": "2026-11-08T09:04+09:00",
   "sample": false,
   "count": 98,
   "items": [
@@ -244,22 +244,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
-      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
-      "place": "상업화랑 용산",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-12",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
-      "gpsX": "126.969207523303",
-      "gpsY": "37.542073059985",
-      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:유별남 사진전 [兪  ;  그러하다]",
       "title": "유별남 사진전 [兪  ;  그러하다]",
       "place": "와이아트 갤러리",
@@ -272,6 +256,22 @@
       "gpsX": "126.991642957434",
       "gpsY": "37.5623817630809",
       "url": "https://blog.naver.com/gu5658/224450449586",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
+      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
+      "place": "상업화랑 용산",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-12",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
+      "gpsX": "126.969207523303",
+      "gpsY": "37.542073059985",
+      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
       "price": "무료",
       "source": "서울"
     },
