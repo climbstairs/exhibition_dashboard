@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-10T12:02+09:00",
+  "generatedAt": "2026-11-11T09:56+09:00",
   "sample": false,
   "count": 88,
   "items": [
-    {
-      "id": "seoul:전시 [느슨한 0 to the ZERO]",
-      "title": "전시 [느슨한 0 to the ZERO]",
-      "place": "갤러리더씨 (서울 용산구 임정로 35 2층)",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-10",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=26a457b806fd4f42bd20931822054f77&thumb=Y",
-      "gpsX": "126.958603008297",
-      "gpsY": "37.543149846744",
-      "url": "https://www.gallerythec.com/index#CURRENT-EXHIBITION",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[세종뮤지엄갤러리] 김대열 기획초대전 [무상지경 無象之境]",
       "title": "[세종뮤지엄갤러리] 김대열 기획초대전 [무상지경 無象之境]",
@@ -68,22 +52,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
-      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
-      "place": "상업화랑 용산",
-      "area": "서울",
-      "sigungu": "용산구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-12",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
-      "gpsX": "126.969207523303",
-      "gpsY": "37.542073059985",
-      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:유별남 사진전 [兪  ;  그러하다]",
       "title": "유별남 사진전 [兪  ;  그러하다]",
       "place": "와이아트 갤러리",
@@ -96,6 +64,22 @@
       "gpsX": "126.991642957434",
       "gpsY": "37.5623817630809",
       "url": "https://blog.naver.com/gu5658/224450449586",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:박지혜 개인전 [그 날 이후 Since The Day]",
+      "title": "박지혜 개인전 [그 날 이후 Since The Day]",
+      "place": "상업화랑 용산",
+      "area": "서울",
+      "sigungu": "용산구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-12",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=65f39e9cf8d54f28b44d32ef30ae6b56&thumb=Y",
+      "gpsX": "126.969207523303",
+      "gpsY": "37.542073059985",
+      "url": "https://archivist.kr/exi?m=gov&i=1793656391",
       "price": "무료",
       "source": "서울"
     },
@@ -468,22 +452,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
-      "area": "서울",
-      "sigungu": "양천구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
-      "gpsX": "126.832145349117",
-      "gpsY": "37.5282197824835",
-      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "place": "갤러리 그라프 전시실",
@@ -496,6 +464,22 @@
       "gpsX": "127.046743383017",
       "gpsY": "37.5234788204389",
       "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "area": "서울",
+      "sigungu": "양천구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
+      "gpsX": "126.832145349117",
+      "gpsY": "37.5282197824835",
+      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
       "price": "무료",
       "source": "서울"
     },
@@ -689,6 +673,22 @@
       "gpsY": "37.5813191962491",
       "url": "https://www.jfac.or.kr/site/main/program/perf_exhi_list_view?pgIdx=2519",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:해요 개인전 [Duologue]",
+      "title": "해요 개인전 [Duologue]",
+      "place": "갤러리 지우헌",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-11",
+      "endDate": "2026-12-12",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e4fbedd5bb294f9bbea4c81641890286&thumb=Y",
+      "gpsX": "126.982999426985",
+      "gpsY": "37.5833833879584",
+      "url": "https://service.designhouse.co.kr/indexmain/view?idx=1390",
+      "price": "무료",
       "source": "서울"
     },
     {
