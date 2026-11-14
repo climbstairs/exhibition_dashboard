@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T10:34+09:00",
+  "generatedAt": "2026-11-14T10:07+09:00",
   "sample": false,
-  "count": 86,
+  "count": 87,
   "items": [
     {
       "id": "seoul:[문화살롱 5120] 망각 기관―셰헤라자데 장치",
@@ -292,6 +292,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:두 개의 숲, 하나의 기억_SPACE 302 2026 기획전",
+      "title": "두 개의 숲, 하나의 기억_SPACE 302 2026 기획전",
+      "place": "와이아트 갤러리",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-23",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=88efad89a8ba4c1db4357880ebaf7421&thumb=Y",
+      "gpsX": "126.991642957434",
+      "gpsY": "37.5623817630809",
+      "url": "https://blog.naver.com/gu5658/224474277703",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
       "title": "[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
       "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
@@ -404,22 +420,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
-      "area": "서울",
-      "sigungu": "양천구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
-      "gpsX": "126.832145349117",
-      "gpsY": "37.5282197824835",
-      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "place": "갤러리 그라프 전시실",
@@ -432,6 +432,22 @@
       "gpsX": "127.046743383017",
       "gpsY": "37.5234788204389",
       "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "area": "서울",
+      "sigungu": "양천구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
+      "gpsX": "126.832145349117",
+      "gpsY": "37.5282197824835",
+      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
       "price": "무료",
       "source": "서울"
     },
