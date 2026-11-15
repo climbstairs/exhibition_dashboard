@@ -1,40 +1,8 @@
 {
-  "generatedAt": "2026-11-14T10:07+09:00",
+  "generatedAt": "2026-11-15T09:28+09:00",
   "sample": false,
-  "count": 87,
+  "count": 85,
   "items": [
-    {
-      "id": "seoul:[문화살롱 5120] 망각 기관―셰헤라자데 장치",
-      "title": "[문화살롱 5120] 망각 기관―셰헤라자데 장치",
-      "place": "문화살롱 5120",
-      "area": "서울",
-      "sigungu": "노원구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-18",
-      "endDate": "2026-11-14",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c1a37898ba5749148f4e69d3f9b726c3&thumb=Y",
-      "gpsX": "127.075703075721",
-      "gpsY": "37.628392704654",
-      "url": "https://www.instagram.com/p/DdBajeUIB3N/?img_index=1",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:[문화공간이육사] 2026 기획전시 [육사답사]",
-      "title": "[문화공간이육사] 2026 기획전시 [육사답사]",
-      "place": "문화공간이육사 3층 교목실",
-      "area": "서울",
-      "sigungu": "성북구",
-      "genre": "전시/미술",
-      "startDate": "2026-05-18",
-      "endDate": "2026-11-14",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4385c07b44de409e84f8a4947392c41d&thumb=Y",
-      "gpsX": "127.032601556099",
-      "gpsY": "37.5981380921564",
-      "url": "https://www.sb.go.kr/literature/culture/bbs/bbsMsgDetail.do?msg_seq=24&bcd=special",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:아트에디션 아트페어 2026",
       "title": "아트에디션 아트페어 2026",
