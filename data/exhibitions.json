@@ -1,40 +1,8 @@
 {
-  "generatedAt": "2026-11-18T11:39+09:00",
+  "generatedAt": "2026-11-19T11:06+09:00",
   "sample": false,
   "count": 89,
   "items": [
-    {
-      "id": "seoul:2026 디자인 기술협업 전주기 지원사업 성과공유회 언박싱데이",
-      "title": "2026 디자인 기술협업 전주기 지원사업 성과공유회 언박싱데이",
-      "place": "DDP 디자인랩3층 디자인홀",
-      "area": "서울",
-      "sigungu": "동대문구",
-      "genre": "전시/미술",
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-18",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a5c59887fd0d4c89b735ef975259ee96&thumb=Y",
-      "gpsX": "127.00977973484339",
-      "gpsY": "37.56735731522952",
-      "url": "https://www.kidp.or.kr/?menuno=1202&bbsno=19320&siteno=16&act=view&ztag=rO0ABXQAMzxjYWxsIHR5cGU9ImJvYXJkIiBubz0iNjIyIiBza2luPSJraWRwX2JicyI%2BPC9jYWxsPg%3D%3D",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
-      "id": "seoul:붙잡을 수 없는 환영을 지나, 보이지 않는 진실을 향해 나아간다",
-      "title": "붙잡을 수 없는 환영을 지나, 보이지 않는 진실을 향해 나아간다",
-      "place": "갤러리 지하",
-      "area": "서울",
-      "sigungu": "마포구",
-      "genre": "전시/미술",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-18",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fd37bf3da2c14aa7872b1e516f585c1d&thumb=Y",
-      "gpsX": "126.93267709449",
-      "gpsY": "37.5534782220949",
-      "url": "https://galleryjiha.com/exhibitions/?bmode=view&idx=175323416&back_url=Lw%3D%3D&t=board&page=",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[운현궁] 2026 하우스뮤지엄 [월동의 규방-160년의 시간을 이은 위로] 홍준희 개인전",
       "title": "[운현궁] 2026 하우스뮤지엄 [월동의 규방-160년의 시간을 이은 위로] 홍준희 개인전",
@@ -484,6 +452,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
+      "title": "2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
+      "place": "해치마당 미디어월(지하철 5호선 광화문역 9번출구 경사로)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bf5d464fc712461581b921cb24f1e4b7&thumb=Y",
+      "gpsX": "126.976787992565",
+      "gpsY": "37.5716228232824",
+      "url": "https://news.seoul.go.kr/culture/archives/534029?listPage=1",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》",
       "title": "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》",
       "place": "이한열기념관 3층 기획전시실",
@@ -528,6 +512,22 @@
       "gpsX": "127.049506212905",
       "gpsY": "37.6555838047766",
       "url": "https://science.seoul.go.kr/RAIM/bbsctt/view.do?bbscttSn=2608280001&key=2304100032",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울아트책보고] 기획전시 《아트북 광장》",
+      "title": "[서울아트책보고] 기획전시 《아트북 광장》",
+      "place": "서울아트책보고 중정 광장",
+      "area": "서울",
+      "sigungu": "구로구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-23",
+      "endDate": "2026-12-06",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d9c549d144fc413f8cd03958dbd8337c&thumb=Y",
+      "gpsX": "126.867088741096",
+      "gpsY": "37.4982125677913",
+      "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=28394&cultureTypeCdArr=EXHB&searchCultureTypeCd=&searchOperStatusCd=VALID",
       "price": "무료",
       "source": "서울"
     },
@@ -1060,6 +1060,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[서울아트책보고] 큐레이션 서가 5기 [선물을 고르는 기분]",
+      "title": "[서울아트책보고] 큐레이션 서가 5기 [선물을 고르는 기분]",
+      "place": "서울아트책보고 예술책방",
+      "area": "서울",
+      "sigungu": "구로구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-17",
+      "endDate": "2027-02-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a8592d3e106442689ddb6bab70cbc807&thumb=Y",
+      "gpsX": "126.867088741096",
+      "gpsY": "37.4982125677913",
+      "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=28757&cultureTypeCdArr=EXHB&searchCultureTypeCd=&searchOperStatusCd=VALID",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울시립 서서울미술관] 2026 서서울미술관 뉴미디어 신진작가전 《탈피하지 못하는 뱀은》",
       "title": "[서울시립 서서울미술관] 2026 서서울미술관 뉴미디어 신진작가전 《탈피하지 못하는 뱀은》",
       "place": "서울시립 서서울미술관 1층 제3전시실",
@@ -1220,22 +1236,6 @@
       "source": "서울"
     },
     {
-      "id": "408502",
-      "title": "양주시립민복진미술관 열린 수장고 상설전시 《사이의 형태》",
-      "place": "양주시립민복진미술관",
-      "area": "경기",
-      "sigungu": "양주시",
-      "genre": "전시",
-      "startDate": "2026-05-01",
-      "endDate": "2027-04-25",
-      "thumbnail": "http://www.culture.go.kr/upload/ucms/oneCltInfo/2026/202611/22bc6160aac04da8b0c693b859b4c868.png",
-      "gpsX": "126.949329535465",
-      "gpsY": "37.7311547817277",
-      "url": "",
-      "price": "",
-      "source": "문화포털"
-    },
-    {
       "id": "seoul:[서울식물원] 2026 서울식물원 기획전시 《다정한 균형: 서로를 비추는》",
       "title": "[서울식물원] 2026 서울식물원 기획전시 《다정한 균형: 서로를 비추는》",
       "place": "식물문화센터 프로젝트홀2, 주제원, 온실, 마곡문화관",
@@ -1268,22 +1268,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:군락: 여섯 개의 뜰 Cluster: Six Scenes",
-      "title": "군락: 여섯 개의 뜰 Cluster: Six Scenes",
-      "place": "소마미술관",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2027-05-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=46c0302026f341548529839e511bd2be&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://archivist.kr/exi?m=gov&i=1793311494",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
       "title": "[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
       "place": "소마미술관 2관 기획전시실",
@@ -1296,6 +1280,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/240",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:군락: 여섯 개의 뜰 Cluster: Six Scenes",
+      "title": "군락: 여섯 개의 뜰 Cluster: Six Scenes",
+      "place": "소마미술관",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2027-05-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=46c0302026f341548529839e511bd2be&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://archivist.kr/exi?m=gov&i=1793311494",
       "price": "유료",
       "source": "서울"
     },
