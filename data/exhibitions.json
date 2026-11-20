@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T11:06+09:00",
+  "generatedAt": "2026-11-20T10:56+09:00",
   "sample": false,
-  "count": 89,
+  "count": 94,
   "items": [
     {
       "id": "seoul:[운현궁] 2026 하우스뮤지엄 [월동의 규방-160년의 시간을 이은 위로] 홍준희 개인전",
@@ -20,22 +20,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
-      "title": "2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
-      "place": "남산골한옥마을",
-      "area": "서울",
-      "sigungu": "중구",
-      "genre": "전시/미술",
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-22",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3fe40ab0c2e945cf82cacad8adc1f3ed&thumb=Y",
-      "gpsX": "126.994440072131",
-      "gpsY": "37.559304933707146",
-      "url": "https://www.specialarts.co.kr/",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[운현궁] 2026 기획전시 [궁 ; Re-숨]",
       "title": "[운현궁] 2026 기획전시 [궁 ; Re-숨]",
       "place": "운현궁 기획전시실",
@@ -48,6 +32,22 @@
       "gpsX": "126.98708335796199",
       "gpsY": "37.57607864675475",
       "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2021&group=basic&code=B35",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
+      "title": "2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
+      "place": "남산골한옥마을",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-22",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3fe40ab0c2e945cf82cacad8adc1f3ed&thumb=Y",
+      "gpsX": "126.994440072131",
+      "gpsY": "37.559304933707146",
+      "url": "https://www.specialarts.co.kr/",
       "price": "무료",
       "source": "서울"
     },
@@ -228,6 +228,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:epic; 서사시",
+      "title": "epic; 서사시",
+      "place": "갤러리 지하",
+      "area": "서울",
+      "sigungu": "마포구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6e1f0568167848999798fc34c0448cab&thumb=Y",
+      "gpsX": "126.93267709449",
+      "gpsY": "37.5534782220949",
+      "url": "https://galleryjiha.com/exhibitions/?bmode=view&idx=175590105&back_url=Lw%3D%3D&t=board&page=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "title": "[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "place": "은평문화예술회관 전시실(지하1층)",
@@ -240,6 +256,22 @@
       "gpsX": "126.927901672834",
       "gpsY": "37.6036996869964",
       "url": "https://www.efac.or.kr/page02/sub01.php?type=view&uid=5427",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[세종뮤지엄갤러리] 기획초대전 [서울실경, 남도산천] 조풍류",
+      "title": "[세종뮤지엄갤러리] 기획초대전 [서울실경, 남도산천] 조풍류",
+      "place": "세종뮤지엄갤러리 1관",
+      "area": "서울",
+      "sigungu": "광진구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-27",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0c1a341d04af4500bf00e78d76c4f0c8&thumb=Y",
+      "gpsX": "127.07318364213",
+      "gpsY": "37.5516093089619",
+      "url": "https://www.instagram.com/p/DftCB36IAvN/",
       "price": "무료",
       "source": "서울"
     },
@@ -480,6 +512,22 @@
       "gpsX": "126.933865358054",
       "gpsY": "37.5550435661865",
       "url": "http://www.leememorial.or.kr/?tpf=memorial/plan_view&board_code=18&code=7178",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[세종뮤지엄갤러리] 최은정 기획초대전",
+      "title": "[세종뮤지엄갤러리] 최은정 기획초대전",
+      "place": "세종뮤지엄갤러리 2관",
+      "area": "서울",
+      "sigungu": "광진구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-18",
+      "endDate": "2026-12-01",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=13da543df373418381e8dd63e70a947a&thumb=Y",
+      "gpsX": "127.07318364213",
+      "gpsY": "37.5516093089619",
+      "url": "https://www.instagram.com/p/Df59SUHGVWX/",
       "price": "무료",
       "source": "서울"
     },
@@ -980,6 +1028,22 @@
       "source": "문화포털"
     },
     {
+      "id": "seoul:[서울시립과학관] 2026년 기관협력 특별전 [가장 긴, 시작 The Longest Beginning]",
+      "title": "[서울시립과학관] 2026년 기관협력 특별전 [가장 긴, 시작 The Longest Beginning]",
+      "place": "동대문디자인플라자(DDP) 뮤지엄 3층 둘레길 갤러리",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-20",
+      "endDate": "2027-01-29",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7f854867582f42d895c22bd59f6e1329&thumb=Y",
+      "gpsX": "127.00977973484339",
+      "gpsY": "37.56735731522952",
+      "url": "https://science.seoul.go.kr/special/special/read?menuId=67&progMstId=2422",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:한불수교 140주년 [기념에서 풍경으로 From Monument to Landscape]",
       "title": "한불수교 140주년 [기념에서 풍경으로 From Monument to Landscape]",
       "place": "소마미술관",
@@ -1057,6 +1121,22 @@
       "gpsY": "37.56735731522952",
       "url": "https://ddp.or.kr/index.html?menuno=230&siteno=2&bbsno=610&boardno=15&bbstopno=610&act=view&subno=",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울갤러리] 내친구서울관 기획전시 《서울탐험대》",
+      "title": "[서울갤러리] 내친구서울관 기획전시 《서울탐험대》",
+      "place": "서울시청 지하1층 내친구서울관 1/2관 사이 로비",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-20",
+      "endDate": "2027-02-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5c1bc81279c747ffaf6193135a57c7c6&thumb=Y",
+      "gpsX": "126.977918351844",
+      "gpsY": "37.566370776634",
+      "url": "https://www.seoul.go.kr/seoulgallery/www/bbs/view.do?key=2509020018&pstSn=881",
+      "price": "무료",
       "source": "서울"
     },
     {
@@ -1268,22 +1348,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
-      "title": "[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
-      "place": "소마미술관 2관 기획전시실",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2027-05-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5b75eb5a5d864fbeb0319b68bf2c9c20&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://soma.kspo.or.kr/dspy/display/240",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:군락: 여섯 개의 뜰 Cluster: Six Scenes",
       "title": "군락: 여섯 개의 뜰 Cluster: Six Scenes",
       "place": "소마미술관",
@@ -1296,6 +1360,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://archivist.kr/exi?m=gov&i=1793311494",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
+      "title": "[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
+      "place": "소마미술관 2관 기획전시실",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2027-05-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5b75eb5a5d864fbeb0319b68bf2c9c20&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://soma.kspo.or.kr/dspy/display/240",
       "price": "유료",
       "source": "서울"
     },
