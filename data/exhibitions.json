@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:56+09:00",
+  "generatedAt": "2026-11-21T10:52+09:00",
   "sample": false,
   "count": 94,
   "items": [
@@ -20,22 +20,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[운현궁] 2026 기획전시 [궁 ; Re-숨]",
-      "title": "[운현궁] 2026 기획전시 [궁 ; Re-숨]",
-      "place": "운현궁 기획전시실",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-22",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ce786bb78204b03b6e24f2da498dcc4&thumb=Y",
-      "gpsX": "126.98708335796199",
-      "gpsY": "37.57607864675475",
-      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2021&group=basic&code=B35",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
       "title": "2026 제3회 아트노마드 아트페어(ARTNOMAD ARTFAIR)",
       "place": "남산골한옥마을",
@@ -48,6 +32,22 @@
       "gpsX": "126.994440072131",
       "gpsY": "37.559304933707146",
       "url": "https://www.specialarts.co.kr/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[운현궁] 2026 기획전시 [궁 ; Re-숨]",
+      "title": "[운현궁] 2026 기획전시 [궁 ; Re-숨]",
+      "place": "운현궁 기획전시실",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-22",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ce786bb78204b03b6e24f2da498dcc4&thumb=Y",
+      "gpsX": "126.98708335796199",
+      "gpsY": "37.57607864675475",
+      "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2021&group=basic&code=B35",
       "price": "무료",
       "source": "서울"
     },
@@ -356,22 +356,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
-      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
-      "area": "서울",
-      "sigungu": "양천구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
-      "gpsX": "126.832145349117",
-      "gpsY": "37.5282197824835",
-      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
       "place": "갤러리 그라프 전시실",
@@ -384,6 +368,22 @@
       "gpsX": "127.046743383017",
       "gpsY": "37.5234788204389",
       "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
+      "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
+      "area": "서울",
+      "sigungu": "양천구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b1ee5a884bfd4236a11d95261ddd61db&thumb=Y",
+      "gpsX": "126.832145349117",
+      "gpsY": "37.5282197824835",
+      "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
       "price": "무료",
       "source": "서울"
     },
