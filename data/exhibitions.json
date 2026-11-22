@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:52+09:00",
+  "generatedAt": "2026-11-22T09:45+09:00",
   "sample": false,
   "count": 94,
   "items": [
@@ -356,22 +356,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "place": "갤러리 그라프 전시실",
-      "area": "서울",
-      "sigungu": "강남구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
-      "gpsX": "127.046743383017",
-      "gpsY": "37.5234788204389",
-      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
@@ -384,6 +368,22 @@
       "gpsX": "126.832145349117",
       "gpsY": "37.5282197824835",
       "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "place": "갤러리 그라프 전시실",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
+      "gpsX": "127.046743383017",
+      "gpsY": "37.5234788204389",
+      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -1348,22 +1348,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:군락: 여섯 개의 뜰 Cluster: Six Scenes",
-      "title": "군락: 여섯 개의 뜰 Cluster: Six Scenes",
-      "place": "소마미술관",
-      "area": "서울",
-      "sigungu": "송파구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-09",
-      "endDate": "2027-05-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=46c0302026f341548529839e511bd2be&thumb=Y",
-      "gpsX": "127.118166964751",
-      "gpsY": "37.516920655117",
-      "url": "https://archivist.kr/exi?m=gov&i=1793311494",
-      "price": "유료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
       "title": "[소마미술관] 국립현대미술관미술은행 소장품기획전 《군락: 여섯 개의 뜰》",
       "place": "소마미술관 2관 기획전시실",
@@ -1376,6 +1360,22 @@
       "gpsX": "127.118166964751",
       "gpsY": "37.516920655117",
       "url": "https://soma.kspo.or.kr/dspy/display/240",
+      "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:군락: 여섯 개의 뜰 Cluster: Six Scenes",
+      "title": "군락: 여섯 개의 뜰 Cluster: Six Scenes",
+      "place": "소마미술관",
+      "area": "서울",
+      "sigungu": "송파구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-09",
+      "endDate": "2027-05-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=46c0302026f341548529839e511bd2be&thumb=Y",
+      "gpsX": "127.118166964751",
+      "gpsY": "37.516920655117",
+      "url": "https://archivist.kr/exi?m=gov&i=1793311494",
       "price": "유료",
       "source": "서울"
     },
