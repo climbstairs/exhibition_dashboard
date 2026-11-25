@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-24T14:03+09:00",
+  "generatedAt": "2026-11-25T12:52+09:00",
   "sample": false,
-  "count": 88,
+  "count": 89,
   "items": [
-    {
-      "id": "seoul:[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
-      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
-      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
-      "area": "서울",
-      "sigungu": "은평구",
-      "genre": "전시/미술",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-24",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e441561b3d57493d977c457ff2cdfabd&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234576&manageCd=MB&searchTarget=&searchStatus=OPEN",
-      "price": "무료",
-      "source": "서울"
-    },
     {
       "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
       "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
@@ -196,6 +180,22 @@
       "source": "서울"
     },
     {
+      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "place": "갤러리 그라프 전시실",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
+      "gpsX": "127.046743383017",
+      "gpsY": "37.5234788204389",
+      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
       "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
@@ -212,19 +212,19 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "place": "갤러리 그라프 전시실",
+      "id": "seoul:디자인코리아 2026",
+      "title": "디자인코리아 2026",
+      "place": "코엑스 1층 B홀",
       "area": "서울",
       "sigungu": "강남구",
       "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
-      "gpsX": "127.046743383017",
-      "gpsY": "37.5234788204389",
-      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
-      "price": "무료",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-29",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=746170ef40434dc4a14633f4ce9e7197&thumb=Y",
+      "gpsX": "127.059159043842",
+      "gpsY": "37.5118239121138",
+      "url": "https://designkorea.kidp.or.kr/",
+      "price": "유료",
       "source": "서울"
     },
     {
@@ -1104,6 +1104,22 @@
       "gpsX": "126.98338815886143",
       "gpsY": "37.57189081127559",
       "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=&currentPage=&seq=20260623170800431&ctgCd=&showSummaryYn=N",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울시립 사진미술관] 확산의 물결",
+      "title": "[서울시립 사진미술관] 확산의 물결",
+      "place": "서울시립 사진미술관 2층",
+      "area": "서울",
+      "sigungu": "도봉구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-25",
+      "endDate": "2027-03-21",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d542a6a313664bb6bb2504ed4bbf103f&thumb=Y",
+      "gpsX": "127.048947814686",
+      "gpsY": "37.6555150225578",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1607817",
       "price": "무료",
       "source": "서울"
     },
