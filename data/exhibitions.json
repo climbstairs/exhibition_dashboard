@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-25T12:52+09:00",
+  "generatedAt": "2026-11-26T12:16+09:00",
   "sample": false,
-  "count": 89,
+  "count": 91,
   "items": [
     {
-      "id": "seoul:[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
-      "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 11월 테마전시체험전 [쓱쓱 싹싹]",
-      "place": "구립증산도서관 3층 가족열람실",
+      "id": "seoul:DK x SDF 국제 컨퍼런스",
+      "title": "DK x SDF 국제 컨퍼런스",
+      "place": "코엑스 401호 컨퍼런스룸",
       "area": "서울",
-      "sigungu": "은평구",
+      "sigungu": "강남구",
       "genre": "전시/미술",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-25",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6a5d3de158384cd683418af712576418&thumb=Y",
-      "gpsX": "126.907671330325",
-      "gpsY": "37.5828094398328",
-      "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234631&manageCd=MB&searchTarget=&searchStatus=OPEN",
-      "price": "무료",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-26",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a857851cf140413a8c2ff47e256cd53c&thumb=Y",
+      "gpsX": "127.059159043842",
+      "gpsY": "37.5118239121138",
+      "url": "https://designkorea.kidp.or.kr/conference",
+      "price": "유료",
       "source": "서울"
     },
     {
@@ -180,22 +180,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
-      "place": "갤러리 그라프 전시실",
-      "area": "서울",
-      "sigungu": "강남구",
-      "genre": "전시/미술",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-28",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
-      "gpsX": "127.046743383017",
-      "gpsY": "37.5234788204389",
-      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "title": "[서울문화예술교육센터 양천] 개관 10주년 특별기획전 [끝없이, 물처럼Ever Flowing, as Water]",
       "place": "서울문화예술교육센터 양천 지하 1층 전시공간 · 야외수조",
@@ -208,6 +192,22 @@
       "gpsX": "126.832145349117",
       "gpsY": "37.5282197824835",
       "url": "https://www.sfac.or.kr/artspace/artspace/arteducation_notice.do?cbIdx=983&bcIdx=138828&type=",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "place": "갤러리 그라프 전시실",
+      "area": "서울",
+      "sigungu": "강남구",
+      "genre": "전시/미술",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bb8f2e8d55af4dd59366566f8a5f2811&thumb=Y",
+      "gpsX": "127.046743383017",
+      "gpsY": "37.5234788204389",
+      "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board",
       "price": "무료",
       "source": "서울"
     },
@@ -340,22 +340,6 @@
       "source": "서울"
     },
     {
-      "id": "seoul:2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
-      "title": "2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
-      "place": "해치마당 미디어월(지하철 5호선 광화문역 9번출구 경사로)",
-      "area": "서울",
-      "sigungu": "종로구",
-      "genre": "전시/미술",
-      "startDate": "2026-09-01",
-      "endDate": "2026-11-30",
-      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bf5d464fc712461581b921cb24f1e4b7&thumb=Y",
-      "gpsX": "126.976787992565",
-      "gpsY": "37.5716228232824",
-      "url": "https://news.seoul.go.kr/culture/archives/534029?listPage=1",
-      "price": "무료",
-      "source": "서울"
-    },
-    {
       "id": "seoul:2026 아뜰리에 광화 세 번째 전시 [물드는 빛]",
       "title": "2026 아뜰리에 광화 세 번째 전시 [물드는 빛]",
       "place": "세종문화회관 외벽 미디어파사드(지하철 5호선 광화문역)",
@@ -368,6 +352,22 @@
       "gpsX": "126.97577534746529",
       "gpsY": "37.57260128068914",
       "url": "https://www.instagram.com/p/Dch53fkgeBD/",
+      "price": "무료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
+      "title": "2026 해치마당 미디어월 세 번째 전시 [순간의 흔적]",
+      "place": "해치마당 미디어월(지하철 5호선 광화문역 9번출구 경사로)",
+      "area": "서울",
+      "sigungu": "종로구",
+      "genre": "전시/미술",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-30",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bf5d464fc712461581b921cb24f1e4b7&thumb=Y",
+      "gpsX": "126.976787992565",
+      "gpsY": "37.5716228232824",
+      "url": "https://news.seoul.go.kr/culture/archives/534029?listPage=1",
       "price": "무료",
       "source": "서울"
     },
@@ -545,6 +545,22 @@
       "gpsY": "37.5813191962491",
       "url": "https://www.jfac.or.kr/site/main/program/perf_exhi_list_view?pgIdx=2519",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:언폴드엑스 2026 [리얼리티체크(Reality Check)]",
+      "title": "언폴드엑스 2026 [리얼리티체크(Reality Check)]",
+      "place": "문화역서울284",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-26",
+      "endDate": "2026-12-09",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5d347245a5534a3d9a5252eb5bddeb70&thumb=Y",
+      "gpsX": "126.972115894161",
+      "gpsY": "37.5560581817344",
+      "url": "https://unfoldx.org/about/",
+      "price": "무료",
       "source": "서울"
     },
     {
@@ -1009,6 +1025,22 @@
       "gpsY": "37.56735731522952",
       "url": "https://ddp.or.kr/index.html?menuno=230&siteno=2&bbsno=610&boardno=15&bbstopno=610&act=view&subno=",
       "price": "유료",
+      "source": "서울"
+    },
+    {
+      "id": "seoul:[서울시립미술관 서소문본관] 요모조모 이슬기",
+      "title": "[서울시립미술관 서소문본관] 요모조모 이슬기",
+      "place": "서울시립미술관 서소문본관 1층 전시실",
+      "area": "서울",
+      "sigungu": "중구",
+      "genre": "전시/미술",
+      "startDate": "2026-11-26",
+      "endDate": "2027-02-28",
+      "thumbnail": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bd245910fb6b4757b46d634497cb3400&thumb=Y",
+      "gpsX": "126.973699316136",
+      "gpsY": "37.5641060692766",
+      "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1596752",
+      "price": "무료",
       "source": "서울"
     },
     {
